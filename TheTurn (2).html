@@ -1,0 +1,2183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>The Turn · Caston Comets Golf</title>
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTMiIGZpbGw9IiMwZDFhM2EiLz48cmVjdCB4PSIwIiB5PSI1MyIgd2lkdGg9IjY0IiBoZWlnaHQ9IjExIiByeD0iMCIgZmlsbD0iI2M4YTA0MCIvPjxyZWN0IHg9IjAiIHk9IjU4IiB3aWR0aD0iNjQiIGhlaWdodD0iNiIgcng9IjgiIGZpbGw9IiNjOGEwNDAiLz48cmVjdCB4PSIwIiB5PSI1MyIgd2lkdGg9IjY0IiBoZWlnaHQ9IjUiIGZpbGw9IiNjOGEwNDAiLz48cmVjdCB4PSIxMCIgeT0iMTQiIHdpZHRoPSI0NCIgaGVpZ2h0PSI5IiByeD0iNCIgZmlsbD0iI2M4YTA0MCIvPjxyZWN0IHg9IjI2IiB5PSIxNCIgd2lkdGg9IjEyIiBoZWlnaHQ9IjM0IiByeD0iMyIgZmlsbD0iI2M4YTA0MCIvPjxsaW5lIHgxPSI1MCIgeTE9IjciIHgyPSI1MCIgeTI9IjE5IiBzdHJva2U9IiNjODI4MWUiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cG9seWdvbiBwb2ludHM9IjUwLDcgNTgsMTEgNTAsMTUiIGZpbGw9IiNjODI4MWUiLz48L3N2Zz4=">
+<link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTMiIGZpbGw9IiMwZDFhM2EiLz48cmVjdCB4PSIwIiB5PSI1MyIgd2lkdGg9IjY0IiBoZWlnaHQ9IjExIiByeD0iMCIgZmlsbD0iI2M4YTA0MCIvPjxyZWN0IHg9IjAiIHk9IjU4IiB3aWR0aD0iNjQiIGhlaWdodD0iNiIgcng9IjgiIGZpbGw9IiNjOGEwNDAiLz48cmVjdCB4PSIwIiB5PSI1MyIgd2lkdGg9IjY0IiBoZWlnaHQ9IjUiIGZpbGw9IiNjOGEwNDAiLz48cmVjdCB4PSIxMCIgeT0iMTQiIHdpZHRoPSI0NCIgaGVpZ2h0PSI5IiByeD0iNCIgZmlsbD0iI2M4YTA0MCIvPjxyZWN0IHg9IjI2IiB5PSIxNCIgd2lkdGg9IjEyIiBoZWlnaHQ9IjM0IiByeD0iMyIgZmlsbD0iI2M4YTA0MCIvPjxsaW5lIHgxPSI1MCIgeTE9IjciIHgyPSI1MCIgeTI9IjE5IiBzdHJva2U9IiNjODI4MWUiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cG9seWdvbiBwb2ludHM9IjUwLDcgNTgsMTEgNTAsMTUiIGZpbGw9IiNjODI4MWUiLz48L3N2Zz4=">
+<meta name="apple-mobile-web-app-title" content="The Turn">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#0d1a3a">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:#f0f2f5;font-family:"Source Sans 3",sans-serif;color:#1a1a1a;min-height:100vh}
+input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none}
+input[type=number]{-moz-appearance:textfield}
+input[type=date]{color-scheme:light}
+#app{max-width:1440px;margin:0 auto;padding-bottom:60px}
+
+/* ── THE TURN HEADER ─────────────────────────────── */
+.hdr{background:linear-gradient(160deg,#060d1f 0%,#0d1a3a 60%,#0a1628 100%);border-bottom:4px solid #c8a040;padding:0}
+.hdr-top{display:flex;align-items:center;gap:0;min-height:70px}
+/* Left: school zone */
+.hdr-school{display:flex;align-items:center;gap:12px;padding:12px 20px;border-right:1px solid rgba(200,160,64,0.2);min-width:0;flex-shrink:0}
+.logo{height:46px;width:auto;filter:drop-shadow(0 0 8px rgba(200,160,64,0.3));flex-shrink:0}
+.school-name{font-family:"Oswald",sans-serif;font-size:15px;font-weight:600;color:rgba(255,255,255,0.75);letter-spacing:1px;line-height:1.2}
+.school-sub{font-size:9px;color:rgba(255,255,255,0.35);letter-spacing:2px;text-transform:uppercase;margin-top:2px}
+/* Center: The Turn wordmark — the star */
+.hdr-brand{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:10px 20px;position:relative}
+.brand-eyebrow{font-family:"Oswald",sans-serif;font-size:9px;font-weight:600;color:rgba(200,160,64,0.5);letter-spacing:5px;text-transform:uppercase;margin-bottom:2px}
+.brand-wordmark{font-family:"Oswald",sans-serif;font-size:36px;font-weight:700;color:#c8a040;letter-spacing:8px;text-transform:uppercase;line-height:1;text-shadow:0 0 30px rgba(200,160,64,0.4)}
+.brand-tagline{font-family:"Source Sans 3",sans-serif;font-size:10px;color:rgba(200,160,64,0.45);letter-spacing:2.5px;text-transform:uppercase;margin-top:3px}
+/* Right: match info zone */
+.hdr-meta{display:flex;align-items:center;gap:8px;padding:12px 20px;border-left:1px solid rgba(200,160,64,0.2);flex-shrink:0}
+
+/* Nav tabs */
+.nav-tabs{display:flex;gap:2px;padding:0 0 0 0;flex-wrap:wrap;border-top:1px solid rgba(200,160,64,0.15)}
+.navbtn{padding:10px 16px;border:none;border-radius:0;cursor:pointer;font-family:"Oswald",sans-serif;font-size:12px;font-weight:600;letter-spacing:1.5px;background:transparent;color:rgba(255,255,255,0.35);border-bottom:3px solid transparent;transition:all 0.2s;text-transform:uppercase}
+.navbtn:hover{color:rgba(200,160,64,0.7);background:rgba(200,160,64,0.05)}
+.navbtn.active{background:rgba(200,160,64,0.1);color:#c8a040;border-bottom:3px solid #c8a040}
+.navbtn.lb-btn{color:rgba(200,160,64,0.6)}
+.navbtn.lb-btn.active{background:rgba(200,160,64,0.15);color:#c8a040;border-bottom:3px solid #c8a040}
+.screen{display:none}.screen.active{display:block}
+
+/* SETUP BAR */
+.setup-bar{background:#fff;border-bottom:2px solid #e8e8e8;padding:12px 20px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;box-shadow:0 2px 6px rgba(0,0,0,0.05)}
+.sgrp{display:flex;align-items:center;gap:7px}
+.slbl{font-size:11px;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:1px;white-space:nowrap}
+.sinp{background:#f5f5f5;border:1.5px solid #ddd;border-radius:7px;color:#1a1a1a;font-family:"Source Sans 3",sans-serif;font-size:14px;padding:7px 11px;outline:none;transition:border-color 0.2s}
+.sinp:focus{border-color:#c8a040}
+.sinp-num{width:62px;text-align:center}
+.sinp-txt{width:175px}
+.htog{display:flex;background:#f5f5f5;border:1.5px solid #ddd;border-radius:7px;overflow:hidden}
+.htbtn{padding:7px 16px;border:none;cursor:pointer;font-family:"Oswald",sans-serif;font-size:14px;font-weight:600;background:transparent;color:#999;transition:all 0.2s}
+.htbtn.active{background:#0d1a3a;color:#c8a040}
+.jv-tog{display:flex;align-items:center;gap:8px}
+.jv-sw{position:relative;width:46px;height:25px;display:inline-block}
+.jv-sw input{opacity:0;width:0;height:0;position:absolute}
+.jv-sl{position:absolute;inset:0;background:#ccc;border-radius:25px;transition:0.3s;cursor:pointer}
+.jv-sl::before{content:"";position:absolute;height:19px;width:19px;left:3px;bottom:3px;background:#fff;border-radius:50%;transition:0.3s}
+.jv-sw input:checked + .jv-sl{background:#0d1a3a}
+.jv-sw input:checked + .jv-sl::before{transform:translateX(21px)}
+.jv-lbl{font-size:13px;font-weight:600;color:#444}
+.save-btn{background:#c8a040;color:#0d1a3a;border:none;border-radius:7px;padding:9px 20px;font-family:"Oswald",sans-serif;font-size:13px;font-weight:700;cursor:pointer;margin-left:auto;white-space:nowrap;letter-spacing:0.5px}
+.save-btn:disabled{background:#bbb;cursor:not-allowed;color:#fff}
+/* UNDO TOAST */
+#undo-toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);background:#0d1a3a;color:#fff;border-radius:50px;padding:12px 22px;font-family:"Oswald",sans-serif;font-size:14px;font-weight:600;letter-spacing:0.5px;box-shadow:0 4px 20px rgba(0,0,0,0.4);z-index:9999;display:flex;align-items:center;gap:14px;transition:transform 0.3s ease;pointer-events:none;border:2px solid #c8a040}
+#undo-toast.show{transform:translateX(-50%) translateY(0);pointer-events:all}
+#undo-toast button{background:#c8a040;color:#0d1a3a;border:none;border-radius:20px;padding:5px 14px;font-family:"Oswald",sans-serif;font-size:12px;font-weight:700;cursor:pointer;letter-spacing:0.5px}
+
+/* LEGEND */
+.legend{display:flex;gap:10px;padding:8px 20px;flex-wrap:wrap;border-bottom:1px solid #e8e8e8;background:#fff;align-items:center}
+.leg-t{font-size:10px;font-weight:700;color:#aaa;text-transform:uppercase;letter-spacing:1px;margin-right:4px}
+.leg-chip{padding:2px 8px;border-radius:4px;font-family:"Oswald",sans-serif;font-size:11px;font-weight:700;border:1px solid rgba(0,0,0,0.1)}
+
+/* PAR EDITOR */
+.par-ed{background:#fff;border:1.5px solid #e0e0e0;border-radius:10px;padding:14px 18px;margin:14px 20px}
+.par-ed-hdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:11px}
+.par-title{font-family:"Oswald",sans-serif;font-size:13px;font-weight:600;color:#0d1a3a;letter-spacing:1.5px;text-transform:uppercase}
+.par-tot-disp{font-family:"Oswald",sans-serif;font-size:13px;color:#888}
+.par-tot-disp b{color:#0d1a3a;font-size:17px}
+.par-sec-lbl{font-size:10px;color:#bbb;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:5px;margin-top:2px}
+.par-row{display:flex;flex-wrap:wrap;gap:5px;align-items:flex-end;margin-bottom:8px}
+.par-col{display:flex;flex-direction:column;align-items:center;gap:3px}
+.par-hole-lbl{font-size:10px;color:#bbb;font-family:"Oswald",sans-serif}
+.par-inp{width:36px;height:32px;border-radius:5px;border:1.5px solid #ddd;background:#f5f5f5;color:#0d1a3a;font-family:"Oswald",sans-serif;font-weight:700;font-size:15px;text-align:center;outline:none;transition:all 0.15s}
+.par-inp.filled{background:#eef2ff;border-color:#4a6fa0}
+.par-sub{font-family:"Oswald",sans-serif;font-size:13px;color:#0d1a3a;border-left:2px solid #c8a040;padding-left:9px;margin-left:3px;align-self:center}
+.par-sub small{display:block;font-size:9px;color:#bbb;letter-spacing:1px}
+
+/* TEAMS */
+.teams-wrap{padding:0 20px}
+.team-card{background:#fff;border:1.5px solid #e0e0e0;border-radius:12px;margin-bottom:16px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,0.06)}
+.tc-hdr{display:flex;align-items:center;padding:11px 16px;border-bottom:1px solid #eee;gap:10px}
+.tc-bar{width:5px;height:34px;border-radius:3px;flex-shrink:0}
+.tc-name-static{font-family:"Oswald",sans-serif;font-size:18px;font-weight:700;letter-spacing:1px;flex:1}
+.tc-name-inp{font-family:"Oswald",sans-serif;font-size:18px;font-weight:600;background:transparent;border:none;border-bottom:2px solid #eee;outline:none;letter-spacing:1px;flex:1;transition:border-color 0.2s;min-width:0}
+.tc-home-badge{font-size:10px;font-weight:700;background:#0d1a3a;color:#c8a040;padding:3px 8px;border-radius:4px;letter-spacing:1px}
+.div-block{padding:12px 16px;border-bottom:1px solid #f0f0f0}
+.div-block:last-child{border-bottom:none}
+.div-hdr{display:flex;align-items:center;gap:10px;margin-bottom:9px;padding-left:9px}
+.div-lbl{font-family:"Oswald",sans-serif;font-size:14px;font-weight:600;letter-spacing:2px;color:#555;text-transform:uppercase}
+.team-badge{display:inline-flex;align-items:center;gap:5px;padding:3px 12px;border-radius:20px;font-family:"Oswald",sans-serif;font-size:12px;font-weight:700;color:#fff}
+.count-note{margin-left:auto;font-size:10px;color:#ccc;font-style:italic}
+.carried-note{font-size:10px;color:#8a6000;background:#fff8e8;padding:2px 8px;border-radius:4px;border:1px solid #c8a040;font-weight:600}
+.tbl-wrap{overflow-x:auto;border-radius:8px;border:1.5px solid #e8e8e8}
+.score-tbl{width:100%;border-collapse:collapse;font-size:13px}
+.score-tbl th{background:#0d1a3a;color:rgba(255,255,255,0.7);font-family:"Oswald",sans-serif;font-size:11px;font-weight:600;letter-spacing:1px;padding:6px 3px;text-align:center;border-bottom:2px solid #c8a040;white-space:nowrap}
+.score-tbl th.nm-th{text-align:left;padding-left:10px;min-width:120px}
+.score-tbl td{border-bottom:1px solid #f2f2f2}
+.score-tbl tr:last-child td{border-bottom:none}
+.par-tr td{background:#f5f0e0;color:#7a5a00;font-family:"Oswald",sans-serif;font-size:11px;text-align:center;padding:3px;border-bottom:1px solid #e0d0a0 !important}
+.par-tr .par-lbl-td{text-align:left;padding-left:10px;font-weight:700;letter-spacing:1px}
+.num-td{text-align:center;color:#ccc;font-size:11px;font-family:"Oswald",sans-serif;padding:4px 2px;width:20px}
+.name-td{padding:3px 6px 3px 4px}
+.name-inp-f{background:transparent;border:none;border-bottom:1.5px solid #eee;color:#1a1a1a;font-family:"Source Sans 3",sans-serif;font-size:13px;padding:2px 4px;width:100%;outline:none}
+.score-td{padding:2px 1px;text-align:center}
+.sinp-score{width:34px;height:28px;border-radius:4px;font-family:"Oswald",sans-serif;font-size:13px;text-align:center;outline:none;border:1.5px solid #ddd;background:#fafafa;color:#333;display:block}
+.sc-eagle{background:#fff0a0;border-color:#c8a000;color:#7a5a00;font-weight:700}
+.sc-birdie{background:#c8f0d8;border-color:#1a9a50;color:#0a5a28;font-weight:700}
+.sc-par{background:#fafafa;border-color:#bbb;color:#333}
+.sc-bogey{background:#fff3cd;border-color:#e0b000;color:#6a5000;font-weight:600}
+.sc-double{background:#ffd8a0;border-color:#d07000;color:#7a3800;font-weight:700}
+.sc-triple{background:#ffb0a0;border-color:#c83000;color:#7a1000;font-weight:700}
+.sc-max{background:#3a0000;border-color:#800000;color:#ffcccc;font-weight:700;font-size:11px}
+.sc-empty{background:#fafafa;border-color:#ddd;color:#333}
+.tot-td{text-align:center;padding:2px 6px;font-family:"Oswald",sans-serif;min-width:56px;vertical-align:middle}
+.tot-num{font-size:14px;font-weight:700}
+.tot-diff{font-size:10px;opacity:0.8}
+.tot-empty{color:#ccc;font-size:13px}
+.rm-td{padding:2px 4px;text-align:center;width:22px}
+.rm-btn{background:none;border:none;color:#ddd;font-size:15px;cursor:pointer;padding:1px 4px;line-height:1}
+.rm-btn:hover{color:#e06060}
+.add-pl-btn{margin-top:7px;background:none;border:1.5px dashed #c8a040;border-radius:6px;font-size:12px;padding:4px 13px;cursor:pointer;opacity:0.5;color:#8a6000;font-family:"Oswald",sans-serif;font-weight:600;letter-spacing:0.5px}
+.add-pl-btn:hover{opacity:1}
+.player-select{width:100%;background:#fafafa;border:1.5px solid #ddd;border-radius:6px;color:#888;font-family:"Source Sans 3",sans-serif;font-size:13px;padding:4px 6px;outline:none;cursor:pointer}
+
+/* STANDINGS */
+.standings-box{margin:10px 20px;background:#fff;border:1.5px solid #e0e0e0;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.07)}
+.standings-cols{display:flex}
+.standings-col{flex:1;min-width:0}
+.standings-col-hdr{background:#0d1a3a;color:#c8a040;font-family:"Oswald",sans-serif;font-size:12px;font-weight:700;letter-spacing:2px;padding:8px 16px;text-transform:uppercase}
+.std-row{display:flex;align-items:center;gap:12px;padding:10px 16px;border-bottom:1px solid #f5f5f5}
+.std-row:last-child{border-bottom:none}
+.std-row.std-first{background:#f5f0e0;border-left:4px solid #c8a040}
+.std-row.std-caston{border-left:4px solid #0d1a3a}
+.std-place{font-family:"Oswald",sans-serif;font-size:18px;font-weight:700;color:#bbb;width:24px;text-align:center}
+.std-name{flex:1;font-family:"Oswald",sans-serif;font-size:14px;font-weight:700}
+.std-score{font-family:"Oswald",sans-serif;font-size:22px;font-weight:700;text-align:right}
+.std-diff{font-size:11px;text-align:right;font-family:"Oswald",sans-serif;font-weight:600}
+.std-badge{font-family:"Oswald",sans-serif;font-size:10px;font-weight:700;padding:2px 8px;border-radius:4px;white-space:nowrap}
+.medalist-banner{background:linear-gradient(135deg,#0d1a3a,#1a3060);color:#c8a040;padding:10px 20px;display:flex;align-items:center;gap:10px;font-family:"Oswald",sans-serif;font-size:14px;font-weight:600;letter-spacing:1px;margin:0 20px 12px;border-radius:10px;border:1px solid rgba(200,160,64,0.3)}
+
+/* HISTORY */
+.hist-wrap{padding:18px 20px}
+.hist-controls{display:flex;gap:10px;align-items:center;margin-bottom:16px;flex-wrap:wrap}
+.season-sel{font-family:"Oswald",sans-serif;font-size:14px;padding:7px 12px;border:1.5px solid #ddd;border-radius:7px;background:#fff;outline:none;cursor:pointer}
+.undo-btn{background:#fff8e8;border:1px solid #c8a040;color:#8a6000;border-radius:6px;padding:6px 12px;font-size:12px;cursor:pointer;font-family:"Oswald",sans-serif;font-weight:600}
+.match-tbl{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);margin-bottom:20px}
+.match-tbl th{background:#0d1a3a;color:#c8a040;font-family:"Oswald",sans-serif;font-size:11px;font-weight:600;letter-spacing:1px;padding:8px 10px;text-align:left;white-space:nowrap}
+.match-tbl td{padding:8px 10px;border-bottom:1px solid #f0f0f0;font-size:13px;vertical-align:middle}
+.match-tbl tr:last-child td{border-bottom:none}
+.match-tbl tr:nth-child(even) td{background:#fafafa}
+.mh-win{color:#0a5a28;font-weight:700;background:#c8f0d8;padding:2px 8px;border-radius:4px;font-family:"Oswald",sans-serif;font-size:12px}
+.mh-loss{color:#7a0000;font-weight:700;background:#ffd8d8;padding:2px 8px;border-radius:4px;font-family:"Oswald",sans-serif;font-size:12px}
+.mh-tie{color:#444;font-weight:700;background:#e8e8e8;padding:2px 8px;border-radius:4px;font-family:"Oswald",sans-serif;font-size:12px}
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-top:16px}
+.stat-card{background:#fff;border:1.5px solid #e8e8e8;border-radius:10px;padding:16px;box-shadow:0 1px 4px rgba(0,0,0,0.05)}
+.stat-name{font-family:"Oswald",sans-serif;font-size:16px;font-weight:600;color:#1a1a1a}
+.stat-avg{font-family:"Oswald",sans-serif;font-size:22px;font-weight:700;color:#0d1a3a}
+.stat-avg-lbl{font-size:9px;color:#aaa;text-transform:uppercase;letter-spacing:1px}
+.best-box{background:#f5f0e0;border:1px solid #c8a040;border-radius:7px;padding:7px 12px;display:flex;align-items:center;gap:10px;margin:10px 0}
+.bar-row{display:grid;grid-template-columns:68px 1fr;gap:8px;align-items:center;margin-bottom:5px}
+.bar-lbl{font-size:11px;color:#888;text-align:right}
+.bar-wrap{display:flex;align-items:center;gap:6px}
+.bar-track{flex:1;height:7px;background:#f0f0f0;border-radius:3px;overflow:hidden}
+.bar-fill{height:100%;border-radius:3px}
+.bar-val{font-family:"Oswald",sans-serif;font-size:11px;font-weight:700;min-width:22px;text-align:right}
+
+/* ROSTER */
+.roster-wrap{padding:18px 20px}
+.season-inp-row{display:flex;align-items:center;gap:10px;margin-bottom:18px;background:#fff;border:1.5px solid #e0e0e0;border-radius:10px;padding:14px 16px;flex-wrap:wrap}
+.roster-sec-lbl{font-family:"Oswald",sans-serif;font-size:15px;font-weight:600;letter-spacing:2px;color:#0d1a3a;text-transform:uppercase;border-left:4px solid #c8a040;padding-left:10px;margin-bottom:12px}
+.roster-div-block{margin-bottom:24px}
+.roster-row{display:flex;align-items:center;gap:10px;margin-bottom:7px}
+.roster-num{font-family:"Oswald",sans-serif;font-size:13px;color:#ccc;width:20px;text-align:right}
+.roster-inp{background:#f5f5f5;border:1.5px solid #e0e0e0;border-radius:7px;color:#1a1a1a;font-family:"Source Sans 3",sans-serif;font-size:14px;padding:8px 12px;outline:none;width:220px}
+.roster-inp:focus{border-color:#c8a040}
+.roster-add-btn{background:none;border:1.5px dashed #ddd;border-radius:6px;color:#bbb;font-size:12px;padding:5px 14px;cursor:pointer;margin-top:3px}
+.roster-add-btn:hover{border-color:#c8a040;color:#8a6000}
+
+/* SETTINGS */
+.settings-wrap{padding:18px 20px}
+.settings-card{background:#fff;border:1.5px solid #e0e0e0;border-radius:10px;padding:20px;margin-bottom:16px}
+.settings-title{font-family:"Oswald",sans-serif;font-size:15px;font-weight:600;color:#0d1a3a;letter-spacing:1px;margin-bottom:14px;border-bottom:2px solid #c8a040;padding-bottom:8px}
+.settings-row{display:flex;align-items:center;gap:12px;margin-bottom:12px;flex-wrap:wrap}
+.settings-lbl{font-size:13px;color:#555;min-width:130px}
+.settings-inp{background:#f5f5f5;border:1.5px solid #ddd;border-radius:7px;color:#1a1a1a;font-family:"Source Sans 3",sans-serif;font-size:13px;padding:7px 11px;outline:none;flex:1;min-width:200px}
+.settings-inp:focus{border-color:#c8a040}
+.test-btn{background:#0d1a3a;color:#c8a040;border:none;border-radius:7px;padding:7px 16px;font-family:"Oswald",sans-serif;font-size:13px;font-weight:600;cursor:pointer}
+.instr-box{background:#f8f8f8;border:1px solid #e0e0e0;border-radius:8px;padding:14px;font-size:12px;color:#555;line-height:1.8}
+.sheets-pill{font-size:11px;padding:4px 10px;border-radius:5px;font-weight:600;display:inline-block;margin-top:8px}
+.s-ok{background:#d4f0e0;color:#1a7a40}
+.s-err{background:#ffe0e0;color:#a01010}
+.s-none{background:#f0f0f0;color:#888}
+
+/* Hide main header top zone on leaderboard — lb header is the hero */
+.lb-screen-active .hdr-top{display:none!important}
+.lb-screen-active .hdr{border-bottom:none;padding:0}
+.lb-screen{background:#0a1220;min-height:100vh;padding:0;background-image:repeating-linear-gradient(0deg,transparent,transparent 60px,rgba(200,160,64,0.03) 60px,rgba(200,160,64,0.03) 61px)}
+.lb-hdr{background:linear-gradient(160deg,#060d1f 0%,#0d1a3a 100%);padding:18px 32px;display:flex;align-items:center;gap:20px;border-bottom:5px solid #c8a040;flex-wrap:wrap;box-shadow:0 4px 30px rgba(0,0,0,0.5)}
+.lb-logo{height:56px;filter:drop-shadow(0 2px 8px rgba(0,0,0,0.5));flex-shrink:0;opacity:0.9}
+.lb-title{font-family:"Oswald",sans-serif;font-size:26px;font-weight:700;color:#fff;letter-spacing:2px}
+.lb-subtitle{font-size:11px;color:rgba(255,255,255,0.4);letter-spacing:2px;text-transform:uppercase;margin-top:3px}
+.lb-clock{font-family:"Oswald",sans-serif;font-size:11px;color:rgba(255,255,255,0.3);letter-spacing:1px;margin-top:4px}
+/* The Turn brand on leaderboard — dominant center */
+.lb-brand-center{flex:1;text-align:center}
+.lb-brand-name{font-family:"Oswald",sans-serif;font-size:42px;font-weight:700;color:#c8a040;letter-spacing:10px;text-transform:uppercase;text-shadow:0 0 40px rgba(200,160,64,0.5);line-height:1}
+.lb-brand-sub{font-size:10px;color:rgba(200,160,64,0.4);letter-spacing:4px;text-transform:uppercase;margin-top:4px}
+.lb-meta{text-align:right;flex-shrink:0}
+.lb-meta-course{font-family:"Oswald",sans-serif;font-size:18px;color:#fff;font-weight:700;letter-spacing:1px}
+.lb-meta-info{font-size:11px;color:#c8a040;margin-top:4px;letter-spacing:1px;font-weight:600}
+.lb-body{display:grid;grid-template-columns:1fr 2px 1fr;min-height:calc(100vh - 130px)}
+.lb-divider{background:rgba(200,160,64,0.2)}
+.lb-col{padding:16px 20px}
+.lb-col-title{font-family:"Oswald",sans-serif;font-size:12px;font-weight:700;color:#c8a040;letter-spacing:3px;text-transform:uppercase;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid rgba(200,160,64,0.3);display:flex;align-items:center;justify-content:space-between}
+
+/* Individual player rows */
+.lb-p-row{display:flex;align-items:center;gap:0;margin-bottom:4px;border-radius:4px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.3)}
+.lb-p-row.lbp-1{box-shadow:0 2px 16px rgba(200,160,64,0.5)}
+.lb-p-row.lbp-2{box-shadow:0 2px 8px rgba(180,180,180,0.15)}
+.lb-p-row.lbp-3{box-shadow:0 2px 8px rgba(140,80,0,0.2)}
+.lb-p-row.lbp-home .lb-p-namecol{border-left:4px solid #c8a040}
+.lb-place-box{display:flex;align-items:center;justify-content:center;width:44px;min-width:44px;height:48px;font-family:"Oswald",sans-serif;font-size:16px;font-weight:700;flex-shrink:0}
+.lb-place-box.pb-1{background:#c8a040;color:#000;font-size:18px}
+.lb-place-box.pb-2{background:#a0a0a0;color:#000}
+.lb-place-box.pb-3{background:#8b6914;color:#fff}
+.lb-place-box.pb-n{background:#0d1a3a;color:rgba(255,255,255,0.4);font-size:13px}
+.lb-p-namecol{flex:1;padding:8px 12px;background:rgba(255,255,255,0.05);min-width:0}
+.lb-p-name{font-family:"Oswald",sans-serif;font-size:17px;font-weight:600;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:0.5px}
+.lb-p-team{font-size:11px;color:rgba(255,255,255,0.35);margin-top:1px;letter-spacing:0.5px}
+.lb-score-box{display:flex;flex-direction:column;align-items:center;justify-content:center;width:70px;min-width:70px;height:48px;background:#060d1f}
+.lb-p-score{font-family:"Oswald",sans-serif;font-size:22px;font-weight:700;line-height:1;color:#fff}
+.lb-p-diff{font-family:"Oswald",sans-serif;font-size:11px;font-weight:700;margin-top:1px}
+
+/* Team standings rows */
+.lb-t-row{display:flex;align-items:center;gap:0;margin-bottom:5px;border-radius:4px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.3)}
+.lb-t-row.lbt-1{box-shadow:0 2px 16px rgba(200,160,64,0.4)}
+.lb-t-row.lbt-home .lb-t-namecol{border-left:4px solid #c8a040}
+.lb-t-place-box{display:flex;align-items:center;justify-content:center;width:44px;min-width:44px;align-self:stretch;font-family:"Oswald",sans-serif;font-size:16px;font-weight:700;flex-shrink:0}
+.lb-t-place-box.tp-1{background:#c8a040;color:#000}
+.lb-t-place-box.tp-n{background:#0d1a3a;color:rgba(255,255,255,0.4);font-size:13px}
+.lb-t-bar{width:5px;align-self:stretch;flex-shrink:0}
+.lb-t-namecol{flex:1;padding:10px 12px;background:rgba(255,255,255,0.05)}
+.lb-t-name{font-family:"Oswald",sans-serif;font-size:16px;font-weight:700;color:#fff;letter-spacing:0.5px}
+.lb-t-scorebox{display:flex;flex-direction:column;align-items:center;justify-content:center;width:80px;min-width:80px;align-self:stretch;background:#060d1f}
+.lb-t-score{font-family:"Oswald",sans-serif;font-size:22px;font-weight:700;color:#fff;line-height:1}
+.lb-t-diff{font-family:"Oswald",sans-serif;font-size:11px;font-weight:700;margin-top:2px}
+.lb-t-badge{font-family:"Oswald",sans-serif;font-size:10px;font-weight:700;padding:2px 8px;border-radius:3px;letter-spacing:1px;white-space:nowrap;align-self:center;margin-right:8px}
+.lb-badge-lead{background:#c8a040;color:#000}
+.lb-badge-back{font-family:"Oswald",sans-serif;font-size:10px;color:rgba(255,255,255,0.3);padding:2px 8px;align-self:center;margin-right:8px}
+.lb-no-data{text-align:center;padding:40px 20px;color:rgba(255,255,255,0.15);font-family:"Oswald",sans-serif;font-size:16px;letter-spacing:2px}
+.lb-back-btn{position:fixed;bottom:20px;right:20px;background:#0d1a3a;color:#c8a040;border:2px solid #c8a040;border-radius:50px;padding:11px 22px;font-family:"Oswald",sans-serif;font-size:14px;font-weight:700;letter-spacing:1px;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,0.4);z-index:999}
+
+@media(max-width:600px){
+  .hdr-brand .brand-wordmark{font-size:24px;letter-spacing:4px}
+  .hdr-school{padding:8px 12px}
+  .setup-bar{padding:10px 12px;gap:10px}
+  .par-ed{margin:12px 12px}
+  .teams-wrap{padding:0 12px}
+  .hist-wrap,.roster-wrap,.settings-wrap{padding:14px 12px}
+  .standings-box,.medalist-banner{margin:10px 12px}
+  .save-btn{margin-left:0;width:100%}
+  .lb-body{grid-template-columns:1fr}
+  .lb-divider{height:1px;width:100%}
+  .lb-hdr{padding:14px 16px}
+  .lb-title{font-size:22px}
+}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div id="undo-toast"><span id="undo-toast-msg"></span><button onclick="doUndo()">↩ Undo</button></div>
+<script>
+const STORAGE_KEY_REAL = 'caston_golf_v4';
+const STORAGE_KEY_DEMO = 'caston_golf_v4_DEMO';
+var DEMO_MODE = false;
+function getStorageKey(){ return DEMO_MODE ? STORAGE_KEY_DEMO : STORAGE_KEY_REAL; }
+var STORAGE_KEY = STORAGE_KEY_REAL; // kept for legacy refs
+
+var UNSAVED_SCORES = 0;
+const LOGO = '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';
+const TEAM_COLORS = ['#c8281e','#1a5fa0','#1a8a40','#7a3a9a','#d06010','#0a7a7a','#8a1a50','#5a7a10','#8a4400','#3a3a8a','#a03030','#205050'];
+
+function uid() { return Math.random().toString(36).slice(2) + Date.now().toString(36); }
+function esc(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function fd(d) { return d===0?'E':d>0?'+'+d:String(d); }
+function dc(d) { return d<0?'#0a5a28':d>0?'#8a2000':'#333'; }
+function dcc(d) { return d<0?'#4db890':d>0?'#ff8080':'rgba(255,255,255,0.4)'; }
+
+// Score classification
+function scoreInfo(sc, par) {
+  var s=parseInt(sc), p=parseInt(par);
+  if(isNaN(s)||isNaN(p)||p<=0||String(sc).trim()==='') return {cls:'sc-empty'};
+  if(s>=p*2) return {cls:'sc-max'};
+  var d=s-p;
+  if(d<=-2) return {cls:'sc-eagle'};
+  if(d===-1) return {cls:'sc-birdie'};
+  if(d===0)  return {cls:'sc-par'};
+  if(d===1)  return {cls:'sc-bogey'};
+  if(d===2)  return {cls:'sc-double'};
+  if(d===3)  return {cls:'sc-triple'};
+  return {cls:'sc-max'};
+}
+
+// Data factories
+function mkEntry(holes, isHome, idx, div) {
+  if(isHome) return {id:(div==='JV'?'j':'r')+idx, selectedName:'', scores:Array(holes).fill('')};
+  return {id:uid(), name:'', scores:Array(holes).fill('')};
+}
+function mkTeam(name, color, holes, isHome) {
+  return {id:isHome?'t0':uid(), name:name, color:color, isHome:!!isHome,
+    Varsity:Array.from({length:5},function(_,i){return mkEntry(holes,isHome,i,'Varsity');}),
+    JV:Array.from({length:5},function(_,i){return mkEntry(holes,isHome,i,'JV');})};
+}
+function buildTeams(n, holes) {
+  var t=[mkTeam('Caston Comets',TEAM_COLORS[0],holes,true)];
+  for(var i=1;i<n;i++) t.push(mkTeam('',TEAM_COLORS[i%TEAM_COLORS.length],holes,false));
+  return t;
+}
+function defaultRoster() {
+  return {
+    season:'2025-26',
+    players:Array.from({length:8},function(_,i){return {id:'r'+i,name:''}})
+  };
+}
+function defaultSheet() {
+  return {holes:9,pars:Array(9).fill(''),hcp:Array(9).fill(''),date:new Date().toISOString().slice(0,10),
+    course:'',hasJV:true,numTeams:2,teams:buildTeams(2,9)};
+}
+function defaultState() {
+  return {roster:defaultRoster(),matches:[],drafts:[],sheet:defaultSheet(),sheetsUrl:'',season:'2025-26',cancellations:[],schoolLogo:'',schoolName:'Caston Comets',schoolSub:'Boys Golf'};
+}
+
+// Load state
+var STATE = (function(){
+  try { var r=localStorage.getItem(STORAGE_KEY); if(r) return JSON.parse(r); } catch(e) {}
+  return defaultState();
+})();
+
+// Migrations
+if(!STATE.roster.season) STATE.roster.season='2025-26';
+if(!STATE.season) STATE.season='2025-26';
+if(STATE.sheet.hasJV===undefined) STATE.sheet.hasJV=true;
+if(!STATE.sheet.hcp) STATE.sheet.hcp=Array(STATE.sheet.holes||9).fill('');
+if(!STATE.sheetsUrl) STATE.sheetsUrl='';
+if(!STATE.drafts) STATE.drafts=[];
+if(!STATE.cancellations) STATE.cancellations=[];
+if(!STATE.schoolLogo) STATE.schoolLogo='';
+if(!STATE.schoolName) STATE.schoolName='Caston Comets';
+if(!STATE.schoolSub) STATE.schoolSub='Boys Golf';
+// Migrate old V/JV split roster → flat players list
+if(!STATE.roster.players) {
+  var migV = STATE.roster.Varsity||[];
+  var migJ = STATE.roster.JV||[];
+  STATE.roster.players = migV.concat(migJ).map(function(p){ return {id:p.id||uid(),name:p.name||''}; });
+  delete STATE.roster.Varsity; delete STATE.roster.JV;
+}
+// Fix scoresheet entries selectedName field
+STATE.sheet.teams.forEach(function(team){
+  ['Varsity','JV'].forEach(function(div){ (team[div]||[]).forEach(function(e){ if(e.selectedName===undefined) e.selectedName=''; }); });
+});
+
+function save() {
+  try {
+    localStorage.setItem(getStorageKey(), JSON.stringify(STATE));
+  } catch(e) {
+    if(e.name==='QuotaExceededError'||e.code===22){
+      alert('⚠️ Storage is full. Your data may not be saved. Try clearing old browser data or use Google Sheets sync as a backup.');
+    }
+  }
+}
+
+function enterDemoMode() {
+  if(!confirm('Enter Demo Mode?\n\nYou\'ll get a fresh sandbox to demo the app. Your real season data is completely safe — Demo Mode uses separate storage.\n\nYou can wipe the demo data anytime and return to your real data.')) return;
+  DEMO_MODE = true;
+  try { localStorage.removeItem(STORAGE_KEY_DEMO); } catch(e){}
+  STATE = defaultState();
+  // Pre-populate demo roster so the demo looks real
+  STATE.schoolName = 'Demo School';
+  STATE.schoolSub = 'Boys Golf';
+  STATE.roster.players = ['Alex Johnson','Chris Martin','Tyler Reed','Sam Davis','Jordan Lee','Ben Wilson','Mike Torres','Jake Brown'].map(function(n,i){ return {id:'d'+i,name:n}; });
+  save();
+  render();
+}
+
+function exitDemoMode() {
+  if(!confirm('Exit Demo Mode and return to your real season data?\n\nAll demo data will be wiped.')) return;
+  try { localStorage.removeItem(STORAGE_KEY_DEMO); } catch(e){}
+  DEMO_MODE = false;
+  STATE = (function(){
+    try { var r=localStorage.getItem(STORAGE_KEY_REAL); if(r) return JSON.parse(r); } catch(e){}
+    return defaultState();
+  })();
+  render();
+}
+
+// ── UNDO SYSTEM ──────────────────────────────────────────────────────────────
+var _undoSnapshot = null;
+var _undoLabel = '';
+var _undoTimer = null;
+
+function snapshotForUndo(label) {
+  _undoSnapshot = JSON.parse(JSON.stringify(STATE));
+  _undoLabel = label;
+}
+
+function showUndoToast(label) {
+  var toast = document.getElementById('undo-toast');
+  var msg = document.getElementById('undo-toast-msg');
+  if(!toast||!msg) return;
+  msg.textContent = label + ' deleted';
+  toast.classList.add('show');
+  if(_undoTimer) clearTimeout(_undoTimer);
+  _undoTimer = setTimeout(function(){
+    toast.classList.remove('show');
+    _undoSnapshot = null;
+  }, 8000);
+}
+
+function doUndo() {
+  if(!_undoSnapshot) return;
+  STATE = _undoSnapshot;
+  _undoSnapshot = null;
+  if(_undoTimer) clearTimeout(_undoTimer);
+  var toast = document.getElementById('undo-toast');
+  if(toast) toast.classList.remove('show');
+  save();
+  render();
+}
+function analyze(scores, pars) {
+  var eagles=0,birdies=0,parC=0,bogeys=0,doubles=0,triples=0,maxes=0,total=0,played=0;
+  scores.forEach(function(sc,i){
+    var s=parseInt(sc),p=parseInt(pars[i]);
+    if(isNaN(s)||isNaN(p)||p<=0||s<1) return;
+    played++; total+=s;
+    if(s>=p*2) maxes++;
+    else { var d=s-p; if(d<=-2)eagles++; else if(d===-1)birdies++; else if(d===0)parC++; else if(d===1)bogeys++; else if(d===2)doubles++; else triples++; }
+  });
+  return {eagles:eagles,birdies:birdies,parC:parC,bogeys:bogeys,doubles:doubles,triples:triples,maxes:maxes,total:total,played:played};
+}
+
+// Tiebreaker: back up from hardest hole to easiest
+// hcp array: each value is hole difficulty rank (1=hardest)
+// Returns negative if a wins, positive if b wins, 0 if true tie
+function tiebreakerCmp(scA, scB, hcp) {
+  if(!hcp||!hcp.some(function(h){return parseInt(h)>0;})) return 0;
+  // Build list of hole indices sorted hardest first (lowest hcp number = hardest)
+  var holeOrder = [];
+  for(var i=0;i<hcp.length;i++){
+    var h=parseInt(hcp[i]);
+    if(h>0) holeOrder.push({idx:i,rank:h});
+  }
+  holeOrder.sort(function(a,b){return a.rank-b.rank;}); // hardest first
+  for(var j=0;j<holeOrder.length;j++){
+    var hi=holeOrder[j].idx;
+    var a=parseInt(scA[hi])||0, b=parseInt(scB[hi])||0;
+    if(a>0&&b>0&&a!==b) return a-b; // lower score wins
+  }
+  return 0; // true tie
+}
+
+function getTeamScore(team, div, pars, holes) {
+  var tots=(team[div]||[]).filter(function(e){ return !e.dns; }).map(function(e){
+    var sc=e.scores.length===holes?e.scores:Array(holes).fill('');
+    var r=analyze(sc,pars);
+    return r.played===holes?r.total:null;
+  }).filter(function(t){return t!==null;}).sort(function(a,b){return a-b;});
+  // If fewer than 4 complete rounds, fall back to any rounds with scores
+  if(tots.length<4){
+    tots=(team[div]||[]).filter(function(e){ return !e.dns; }).map(function(e){
+      var sc=e.scores.length===holes?e.scores:Array(holes).fill('');
+      var r=analyze(sc,pars);
+      return r.played>0?r.total:null;
+    }).filter(function(t){return t!==null;}).sort(function(a,b){return a-b;});
+  }
+  return tots.length?tots.slice(0,4).reduce(function(a,b){return a+b;},0):null;
+}
+
+function getDroppedScore(team, pars, holes) {
+  var tots=team.Varsity.filter(function(e){ return !e.dns; }).map(function(e,idx){
+    var sc=e.scores.length===holes?e.scores:Array(holes).fill('');
+    var r=analyze(sc,pars); return r.played>0?{total:r.total,idx:idx}:null;
+  }).filter(Boolean).sort(function(a,b){return a.total-b.total;});
+  return tots.length>=5?tots[4]:null;
+}
+
+function findMedalist(teams, pars, holes) {
+  var best=null;
+  var pSum=pars.reduce(function(a,b){return a+(parseInt(b)||0);},0);
+  teams.forEach(function(team){
+    var divs=STATE.sheet.hasJV?['Varsity','JV']:['Varsity'];
+    divs.forEach(function(div){
+      team[div].forEach(function(e,idx){
+        var sc=e.scores.length===holes?e.scores:Array(holes).fill('');
+        var r=analyze(sc,pars);
+        if(r.played<holes) return;
+        var name=team.isHome?(e.selectedName||''):(e.name||'');
+        if(!name) return;
+        if(!best||r.total<best.total) best={total:r.total,name:name,team:team.isHome?'Caston Comets':(team.name||'?'),div:div,diff:r.total-pSum};
+      });
+    });
+  });
+  return best;
+}
+
+// ── RENDER SCORE INPUT ──────────────────────────────────────────────────────
+function renderScoreInp(sc, par, teamId, div, idx, hole) {
+  var info=scoreInfo(sc,par);
+  var maxVal=(parseInt(par)||5)*2;
+  return '<td class="score-td"><input type="number" min="1" max="'+maxVal+'" class="sinp-score '+info.cls+'" value="'+esc(sc)+'" data-team="'+teamId+'" data-div="'+div+'" data-idx="'+idx+'" data-hole="'+hole+'" oninput="onScoreInput(this)" onkeydown="onScoreKey(event,this)"></td>';
+}
+
+// ── RENDER SCORE TABLE ──────────────────────────────────────────────────────
+function renderScoreTable(team, div, pars, holes, isHome, carriedEntry, carriedName) {
+  var entries=team[div];
+  // Combined roster - any player can go in any slot
+  var allPlayers = (STATE.roster.players||[]).filter(function(p){return p.name;});
+  var roster = allPlayers.map(function(p){ return {id:p.id,name:p.name,display:p.name}; });
+  var pSum=pars.reduce(function(a,b){return a+(parseInt(b)||0);},0);
+
+  var allE=div==='JV'&&carriedEntry?[carriedEntry].concat(entries):entries;
+  var tots=allE.map(function(e){
+    var sc=e.scores.length===holes?e.scores:Array(holes).fill('');
+    var r=analyze(sc,pars); return r.played>0?r.total:null;
+  }).filter(function(t){return t!==null;}).sort(function(a,b){return a-b;});
+  var teamTot=tots.length?tots.slice(0,4).reduce(function(a,b){return a+b;},0):null;
+  var td=teamTot!==null?teamTot-pSum*4:null;
+
+  // Build hole headers with OUT/IN subtotals
+  var holeHdrs='';
+  var parCells='';
+  pars.forEach(function(p,i){
+    holeHdrs += '<th style="min-width:34px">'+(i+1)+'</th>';
+    parCells  += '<td>'+(parseInt(p)||'—')+'</td>';
+    if(i===8 && holes===18){
+      holeHdrs += '<th style="min-width:38px;background:#0d2818;color:#c8a040">OUT</th>';
+      var outPar = pars.slice(0,9).reduce(function(a,b){return a+(parseInt(b)||0);},0);
+      parCells  += '<td style="background:#f0faf5;color:#1a7a40;font-weight:700">'+(outPar||'—')+'</td>';
+    }
+  });
+  if(holes===18){
+    holeHdrs += '<th style="min-width:38px;background:#0d2818;color:#c8a040">IN</th>';
+    var inPar = pars.slice(9).reduce(function(a,b){return a+(parseInt(b)||0);},0);
+    parCells  += '<td style="background:#f0faf5;color:#1a7a40;font-weight:700">'+(inPar||'—')+'</td>';
+  }
+
+  var carriedRow='';
+  if(div==='JV'&&isHome&&carriedEntry){
+    var csc=carriedEntry.scores.length===holes?carriedEntry.scores:Array(holes).fill('');
+    var cr=analyze(csc,pars);
+    var cdiff=cr.total-pSum;
+    var cScoreCells=csc.map(function(s,i){return renderScoreInp(s,pars[i],'CARRIED',div,0,i);}).join('');
+    var cTotCell=cr.played>0?'<td class="tot-td"><div class="tot-num" style="color:'+dc(cdiff)+'">'+cr.total+'</div><div class="tot-diff" style="color:'+dc(cdiff)+'">'+fd(cdiff)+'</div></td>':'<td class="tot-td"><span class="tot-empty">—</span></td>';
+    carriedRow='<tr style="background:#fff8e8"><td class="num-td" style="color:#e08020">★</td><td class="name-td"><span style="color:#e08020;font-size:13px;font-weight:600">'+esc(carriedName||'?')+' <span style="font-size:10px;background:#fff0c0;padding:1px 5px;border-radius:3px;border:1px solid #e0c060">carried</span></span></td>'+cScoreCells+cTotCell+'<td class="rm-td"></td></tr>';
+  }
+
+  var rows=entries.map(function(e,idx){
+    var sc=e.scores.length===holes?e.scores:Array(holes).fill('');
+    var r=analyze(sc,pars); var diff=r.total-pSum;
+    var nameCell;
+    if(isHome){
+      var opts=roster.map(function(p){return p.name?'<option value="'+esc(p.name)+'" '+(e.selectedName===p.name?'selected':'')+'>'+esc(p.display||p.name)+'</option>':'';}).join('');
+      nameCell='<td class="name-td"><select class="player-select" style="border-color:'+(e.selectedName?'#c8281e':'#ddd')+';color:'+(e.selectedName?'#1a1a1a':'#888')+'" data-team="'+team.id+'" data-div="'+div+'" data-idx="'+idx+'" onchange="onPlayerSelect(this)"><option value="">-- Select Player --</option>'+opts+'</select></td>';
+    } else {
+      nameCell='<td class="name-td"><input class="name-inp-f" placeholder="Player '+(idx+1)+'" value="'+esc(e.name||'')+'" data-team="'+team.id+'" data-div="'+div+'" data-idx="'+idx+'" oninput="onNameInput(this)"></td>';
+    }
+    var isDNS = !!e.dns;
+    var scoreCells='';
+    sc.forEach(function(s,i){
+      if(isDNS){
+        scoreCells += '<td class="score-td"><input type="number" class="sinp-score sc-empty" disabled style="opacity:0.3;cursor:not-allowed" value=""></td>';
+        if(i===8 && holes===18) scoreCells += '<td style="text-align:center;padding:2px 4px;min-width:38px;background:#f5f5f5"><span style="color:#ccc">—</span></td>';
+      } else {
+        scoreCells += renderScoreInp(s,pars[i],team.id,div,idx,i);
+        if(i===8 && holes===18){
+          var outSc = sc.slice(0,9).reduce(function(a,v){return a+(parseInt(v)||0);},0);
+          var outPlayed = sc.slice(0,9).some(function(v){return v!=='';});
+          var outPar9 = pars.slice(0,9).reduce(function(a,b){return a+(parseInt(b)||0);},0);
+          var outDiff = outSc - outPar9;
+          scoreCells += '<td data-subtotal="out" data-team="'+team.id+'" data-div="'+div+'" data-idx="'+idx+'" style="text-align:center;padding:2px 4px;min-width:38px;background:#f0faf5;border-bottom:1px solid #d8eee4">'+
+            (outPlayed?'<div style="font-family:Oswald,sans-serif;font-size:13px;font-weight:700;color:'+(outDiff<0?'#0a5a28':outDiff>0?'#8a2000':'#333')+'">'+outSc+'</div>'+
+            '<div style="font-size:9px;color:'+(outDiff<0?'#0a5a28':outDiff>0?'#8a2000':'#888')+'">'+fd(outDiff)+'</div>':'<span style="color:#ccc">—</span>')+
+          '</td>';
+        }
+      }
+    });
+    if(!isDNS && holes===18){
+      var inSc = sc.slice(9).reduce(function(a,v){return a+(parseInt(v)||0);},0);
+      var inPlayed = sc.slice(9).some(function(v){return v!=='';});
+      var inPar9 = pars.slice(9).reduce(function(a,b){return a+(parseInt(b)||0);},0);
+      var inDiff = inSc - inPar9;
+      scoreCells += '<td data-subtotal="in" data-team="'+team.id+'" data-div="'+div+'" data-idx="'+idx+'" style="text-align:center;padding:2px 4px;min-width:38px;background:#f0faf5;border-bottom:1px solid #d8eee4">'+
+        (inPlayed?'<div style="font-family:Oswald,sans-serif;font-size:13px;font-weight:700;color:'+(inDiff<0?'#0a5a28':inDiff>0?'#8a2000':'#333')+'">'+inSc+'</div>'+
+        '<div style="font-size:9px;color:'+(inDiff<0?'#0a5a28':inDiff>0?'#8a2000':'#888')+'">'+fd(inDiff)+'</div>':'<span style="color:#ccc">—</span>')+
+      '</td>';
+    } else if(isDNS && holes===18){
+      scoreCells += '<td style="text-align:center;padding:2px 4px;min-width:38px;background:#f5f5f5"><span style="color:#ccc">—</span></td>';
+    }
+    var totCell=isDNS
+      ? '<td class="tot-td"><span style="font-family:Oswald,sans-serif;font-size:11px;font-weight:700;color:#fff;background:#c83000;padding:2px 7px;border-radius:4px">DNS</span></td>'
+      : r.played>0?'<td class="tot-td"><div class="tot-num" style="color:'+dc(diff)+'">'+r.total+'</div><div class="tot-diff" style="color:'+dc(diff)+'">'+fd(diff)+'</div></td>':'<td class="tot-td"><span class="tot-empty">—</span></td>';
+    var rowBg=isDNS?'background:#f8f0f0;opacity:0.6':idx%2===0?'':'background:#fafafa';
+    var dnsBtn='<button title="'+(isDNS?'Mark as playing':'Mark as DNS - Did Not Start')+'" style="background:'+(isDNS?'#c83000':'#f0f0f0')+';color:'+(isDNS?'#fff':'#aaa')+';border:none;border-radius:4px;font-size:10px;font-weight:700;padding:2px 5px;cursor:pointer;font-family:Oswald,sans-serif;letter-spacing:0.5px;margin-right:2px" data-team="'+team.id+'" data-div="'+div+'" data-idx="'+idx+'" onclick="toggleDNS(this.dataset.team,this.dataset.div,parseInt(this.dataset.idx))">'+(isDNS?'↩ IN':'DNS')+'</button>';
+    return '<tr style="'+rowBg+'"><td class="num-td">'+(idx+1)+'</td>'+nameCell+scoreCells+totCell+'<td class="rm-td" style="white-space:nowrap">'+dnsBtn+'<button class="rm-btn" data-team="'+team.id+'" data-div="'+div+'" data-idx="'+idx+'" onclick="removeEntry(this.dataset.team,this.dataset.div,parseInt(this.dataset.idx))">×</button></td></tr>';
+  }).join('');
+
+  var badge=teamTot!==null?'<span class="team-badge" style="background:'+team.color+'">Team: '+teamTot+' <span style="opacity:0.85;font-size:11px">'+fd(td)+'</span></span>':'';
+  var carriedNote=div==='JV'&&isHome?'<span class="carried-note">★ = Dropped Varsity score</span>':'';
+
+  return '<div class="div-block"><div class="div-hdr" style="border-left:4px solid '+team.color+'"><span class="div-lbl">'+div+'</span>'+badge+carriedNote+'<span class="count-note">Top 4 count</span></div><div class="tbl-wrap"><table class="score-tbl"><thead><tr><th style="width:20px">#</th><th class="nm-th">Player</th>'+holeHdrs+'<th style="min-width:56px">Total</th><th style="width:22px"></th></tr><tr class="par-tr"><td></td><td class="par-lbl-td">PAR</td>'+parCells+'<td>'+(pSum||'—')+'</td><td></td></tr></thead><tbody>'+carriedRow+rows+'</tbody></table></div><button class="add-pl-btn" style="color:'+team.color+';border-color:'+team.color+'" onclick="addEntry(this.dataset.team,this.dataset.div)" data-team="'+team.id+'" data-div="'+div+'">+ Add Player</button></div>';
+}
+
+// ── RENDER PAR EDITOR ───────────────────────────────────────────────────────
+function renderParEd() {
+  var holes=STATE.sheet.holes, pars=STATE.sheet.pars, hcp=STATE.sheet.hcp||Array(holes).fill('');
+  var fSum=pars.slice(0,9).reduce(function(a,b){return a+(parseInt(b)||0);},0);
+  var bSum=holes===18?pars.slice(9).reduce(function(a,b){return a+(parseInt(b)||0);},0):0;
+  function buildParInps(from,to){
+    return Array.from({length:to-from},function(_,k){
+      var i=from+k, p=parseInt(pars[i]);
+      return '<div class="par-col"><span class="par-hole-lbl">'+(i+1)+'</span><input class="par-inp'+(p>=3&&p<=6?' filled':'')+'" type="number" min="3" max="6" value="'+pars[i]+'" data-idx="'+i+'" oninput="onParInput(this)"></div>';
+    }).join('');
+  }
+  function buildHcpInps(from,to){
+    return Array.from({length:to-from},function(_,k){
+      var i=from+k, h=parseInt(hcp[i]);
+      return '<div class="par-col"><span class="par-hole-lbl" style="color:#bbb">'+(i+1)+'</span><input style="width:36px;height:28px;border-radius:5px;border:1.5px solid #ddd;background:#f9f9f9;color:#888;font-family:Oswald,sans-serif;font-weight:600;font-size:13px;text-align:center;outline:none" type="number" min="1" max="'+(to-from)+'" value="'+(h||'')+'" data-idx="'+i+'" oninput="onHcpInput(this)" placeholder="—"></div>';
+    }).join('');
+  }
+  var back=holes===18?
+    '<div class="par-sec-lbl">Back 9</div><div class="par-row">'+buildParInps(9,18)+'<div class="par-sub" id="par-sub-in"><small>IN</small><span id="par-in-val">'+(bSum||'—')+'</span></div></div>'+
+    '<div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;margin-bottom:4px"><span style="font-size:10px;color:#bbb;letter-spacing:1.5px;text-transform:uppercase;min-width:68px;text-align:right">Hole HCP</span>'+buildHcpInps(9,18)+'</div>'
+    :'';
+  var hcpFrontRow=holes===18
+    ?'<div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;margin-bottom:6px"><span style="font-size:10px;color:#bbb;letter-spacing:1.5px;text-transform:uppercase;min-width:68px;text-align:right">Hole HCP</span>'+buildHcpInps(0,9)+'</div>'
+    :'<div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;margin-bottom:6px"><span style="font-size:10px;color:#bbb;letter-spacing:1.5px;text-transform:uppercase;min-width:68px;text-align:right">Hole HCP</span>'+buildHcpInps(0,9)+'<span style="font-size:10px;color:#bbb;margin-left:6px">← optional, used for tiebreakers</span></div>';
+  return '<div class="par-ed">'+
+    '<div class="par-ed-hdr"><span class="par-title">⛳ Course Par Setup</span><span class="par-tot-disp">Course Par: <b id="par-grand-total">'+((fSum+bSum)||'—')+'</b></span></div>'+
+    (holes===18?'<div class="par-sec-lbl">Front 9</div>':'')+
+    '<div class="par-row">'+buildParInps(0,9)+'<div class="par-sub" id="par-sub-out"><small>'+(holes===18?'OUT':'TOTAL')+'</small><span id="par-out-val">'+(fSum||'—')+'</span></div></div>'+
+    hcpFrontRow+
+    back+
+  '</div>';
+}
+
+// ── RENDER STANDINGS ────────────────────────────────────────────────────────
+function renderStandings(div) {
+  var pars=STATE.sheet.pars, holes=STATE.sheet.holes, teams=STATE.sheet.teams;
+  var pSum=pars.reduce(function(a,b){return a+(parseInt(b)||0);},0);
+  var rows=teams.map(function(t){
+    return {name:t.isHome?'Caston Comets':(t.name||'Opponent'),color:t.color,isHome:t.isHome,score:getTeamScore(t,div,pars,holes)};
+  }).filter(function(r){return r.score!==null;}).sort(function(a,b){return a.score-b.score;});
+  if(!rows.length) return '<div style="padding:12px 16px;color:#aaa;font-size:13px">Enter scores to see standings</div>';
+  var winner=rows[0];
+  return rows.map(function(r,i){
+    var diff=r.score-pSum*4;
+    var isFirst=i===0;
+    var back=!isFirst?r.score-winner.score:0;
+    var border=isFirst?'border-left:4px solid #1a7a40':(r.isHome?'border-left:4px solid #c8281e':'border-left:4px solid #eee');
+    var bg=isFirst?'background:#f0faf5':'background:#fff';
+    return '<div class="std-row '+(isFirst?'std-first':'')+(r.isHome&&!isFirst?' std-caston':'')+'" style="'+border+';'+bg+'"><div class="std-place" style="color:'+(isFirst?'#1a7a40':'#bbb')+'">'+(i+1)+'</div><div class="std-name" style="color:'+r.color+'">'+esc(r.name)+'</div><div style="text-align:right"><div class="std-score" style="color:'+(isFirst?'#1a7a40':'#333')+'">'+r.score+'</div><div class="std-diff" style="color:'+(diff<0?'#1a7a40':diff>0?'#c83000':'#888')+'">'+fd(diff)+'</div></div>'+(isFirst?'<span class="std-badge" style="background:#1a7a40;color:#fff">LEAD</span>':back>0?'<span class="std-badge" style="background:#f0f0f0;color:#888">+'+back+'</span>':'')+'</div>';
+  }).join('');
+}
+
+// ── RENDER SCORESHEET ───────────────────────────────────────────────────────
+function renderScoresheet() {
+  var sheet=STATE.sheet, holes=sheet.holes, pars=sheet.pars, hasJV=sheet.hasJV, teams=sheet.teams;
+  var homeTeam=teams.find(function(t){return t.isHome;});
+  var dropped=getDroppedScore(homeTeam,pars,holes);
+  var carriedEntry=null, carriedName='';
+  if(dropped){
+    var rEntry=homeTeam.Varsity[dropped.idx];
+    carriedEntry=JSON.parse(JSON.stringify(rEntry));
+    carriedName=rEntry.selectedName||('Player '+(dropped.idx+1));
+  }
+  var medalist=findMedalist(teams,pars,holes);
+  var medBanner=medalist?'<div class="medalist-banner"><span style="font-size:22px">🏅</span><span>MEDALIST: '+esc(medalist.name)+' — '+medalist.total+' ('+fd(medalist.diff)+') · '+esc(medalist.team)+' '+medalist.div+'</span></div>':'';
+
+  var teamsHTML=teams.map(function(team){
+    var nameCell;
+    if(team.isHome){
+      nameCell='<span class="tc-name-static" style="color:'+team.color+'">CASTON COMETS</span><span class="tc-home-badge">HOME</span>';
+    } else {
+      nameCell='<input class="tc-name-inp" id="tn-'+team.id+'" style="color:'+team.color+'" value="'+esc(team.name)+'" placeholder="Opponent Name" data-teamid="'+team.id+'" oninput="onTeamNameInput(this)" ">';
+    }
+    var vBlock=renderScoreTable(team,'Varsity',pars,holes,team.isHome,null,null);
+    var jBlock=hasJV?renderScoreTable(team,'JV',pars,holes,team.isHome,team.isHome?carriedEntry:null,team.isHome?carriedName:null):'';
+    return '<div class="team-card" style="border-top:3px solid '+team.color+'"><div class="tc-hdr"><div class="tc-bar" style="background:'+team.color+'"></div>'+nameCell+'</div>'+vBlock+jBlock+'</div>';
+  }).join('');
+
+  var divs=hasJV?['Varsity','JV']:['Varsity'];
+  var standingsCols=divs.map(function(d){
+    return '<div class="standings-col"><div class="standings-col-hdr">'+d+' Standings</div>'+renderStandings(d)+'</div>';
+  }).join('<div style="width:1px;background:#e0e0e0"></div>');
+
+  var canSave=pars.some(function(p){return parseInt(p)>0;})&&homeTeam.Varsity.some(function(e){return e.scores.some(function(s){return s!=='';});});
+
+  return '<div id="screen-sheet" class="screen '+(TAB==='sheet'?'active':'')+'">'+
+    '<div class="setup-bar">'+
+      '<div class="sgrp"><span class="slbl">Date</span><input type="date" class="sinp" value="'+sheet.date+'" data-field="date" oninput="onSheetField(this.dataset.field,this.value)"></div>'+
+      '<div class="sgrp"><span class="slbl">Course</span><input type="text" class="sinp sinp-txt" value="'+esc(sheet.course)+'" placeholder="Course name" data-field="course" oninput="onSheetField(this.dataset.field,this.value)"></div>'+
+      '<div class="sgrp"><span class="slbl">Holes</span><div class="htog"><button class="htbtn'+(holes===9?' active':'')+'" onclick="onHoles(9)">9</button><button class="htbtn'+(holes===18?' active':'')+'" onclick="onHoles(18)">18</button></div></div>'+
+      '<div class="sgrp"><span class="slbl"># Teams</span><input type="number" class="sinp sinp-num" min="2" max="20" value="'+sheet.numTeams+'" oninput="onNumTeams(this.value)"></div>'+
+      '<div class="sgrp jv-tog"><span class="jv-lbl">JV</span><label class="jv-sw"><input type="checkbox" '+(hasJV?'checked':'')+' onchange="onHasJV(this.checked)"><span class="jv-sl"></span></label></div>'+
+      '<button onclick="resetSheet()" style="background:#888;color:#fff;border:none;border-radius:7px;padding:9px 14px;font-family:Oswald,sans-serif;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap">🗑 Clear Sheet</button>'+
+      '<button class="save-btn" onclick="submitMatch()" '+(canSave?'':'disabled')+'>💾 Save Match to Season</button>'+
+    '</div>'+
+    '<div class="legend"><span class="leg-t">Score Key:</span>'+
+      '<span class="leg-chip sc-eagle" style="color:#7a5a00">Eagle+</span>'+
+      '<span class="leg-chip sc-birdie" style="color:#0a5a28">Birdie</span>'+
+      '<span class="leg-chip sc-par" style="color:#333">Par</span>'+
+      '<span class="leg-chip sc-bogey" style="color:#6a5000">Bogey</span>'+
+      '<span class="leg-chip sc-double" style="color:#7a3800">Double</span>'+
+      '<span class="leg-chip sc-triple" style="color:#7a1000">Triple</span>'+
+      '<span class="leg-chip sc-max" style="color:#ffcccc">MAX</span>'+
+    '</div>'+
+    renderParEd()+
+    medBanner+
+    '<div class="teams-wrap">'+teamsHTML+'</div>'+
+    '<div class="standings-box"><div class="standings-cols">'+standingsCols+'</div></div>'+
+  '</div>';
+}
+
+// ── RENDER LEADERBOARD ──────────────────────────────────────────────────────
+function renderLeaderboard() {
+  var sheet=STATE.sheet, holes=sheet.holes, pars=sheet.pars, teams=sheet.teams;
+  var pSum=pars.reduce(function(a,b){return a+(parseInt(b)||0);},0);
+  var now=new Date();
+  var timeStr=now.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});
+
+  // Individual players
+  var players=[];
+  teams.forEach(function(team){
+    var divs=STATE.sheet.hasJV?['Varsity','JV']:['Varsity'];
+    divs.forEach(function(div){
+      team[div].forEach(function(e,idx){
+        var sc=e.scores.length===holes?e.scores:Array(holes).fill('');
+        var r=analyze(sc,pars);
+        if(r.played===0) return;
+        var name=team.isHome?(e.selectedName||''):(e.name||'');
+        if(!name) return;
+        players.push({name:name,team:team.isHome?'Caston Comets':(team.name||'Opponent'),color:team.color,isHome:team.isHome,div:div,total:r.total,played:r.played,complete:r.played>=holes,diff:r.total-pSum,scores:sc});
+      });
+    });
+  });
+  var hcp=STATE.sheet.hcp||[];
+  players.sort(function(a,b){
+    if(a.complete&&!b.complete) return -1;
+    if(!a.complete&&b.complete) return 1;
+    if(a.total!==b.total) return a.total-b.total;
+    return tiebreakerCmp(a.scores,b.scores,hcp);
+  });
+
+  var playerRows=players.length?players.map(function(p,i){
+    var placeCls=i===0?'lbp-1':i===1?'lbp-2':i===2?'lbp-3':'lbp-n';
+    var pbCls=i===0?'pb-1':i===1?'pb-2':i===2?'pb-3':'pb-n';
+    var homeCls=p.isHome?' lbp-home':'';
+    var diffColor=p.diff<0?'#4dcc80':p.diff>0?'#ff6b6b':'#c8a040';
+    var scoreColor=p.diff<0?'#4dcc80':p.diff>0?'#ff6b6b':'#fff';
+    // Check for tie with adjacent player
+    var isTied=(i>0&&players[i-1].total===p.total)||(i<players.length-1&&players[i+1].total===p.total);
+    var tbNote=isTied&&hcp.some(function(h){return parseInt(h)>0;})?' <span style="font-size:9px;color:#e08020;letter-spacing:0.5px">TB</span>':'';
+    var firstOfTieIdx=i; while(firstOfTieIdx>0&&players[firstOfTieIdx-1].total===p.total) firstOfTieIdx--;
+    var placeLabel=isTied?('T'+(firstOfTieIdx+1)):(i+1);
+    return '<div class="lb-p-row '+placeCls+homeCls+'">'+
+      '<div class="lb-place-box '+pbCls+'">'+placeLabel+'</div>'+
+      '<div class="lb-p-namecol">'+
+        '<div class="lb-p-name">'+esc(p.name)+tbNote+'</div>'+
+        '<div class="lb-p-team" style="color:'+p.color+'">'+esc(p.team)+' · '+p.div+(p.complete?'':' · <span style="color:#e08020">In Progress</span>')+'</div>'+
+      '</div>'+
+      '<div class="lb-score-box">'+
+        '<div class="lb-p-score" style="color:'+scoreColor+'">'+p.total+'</div>'+
+        '<div class="lb-p-diff" style="color:'+diffColor+'">'+fd(p.diff)+'</div>'+
+      '</div>'+
+    '</div>';
+  }).join(''):'<div class="lb-no-data">Enter scores to see leaderboard</div>';
+
+  // Team standings
+  var teamRows=[];
+  var tStandings=teams.map(function(t){
+    return {name:t.isHome?'Caston Comets':(t.name||'Opponent'),color:t.color,isHome:t.isHome,score:getTeamScore(t,'Varsity',pars,holes)};
+  }).filter(function(t){return t.score!==null;}).sort(function(a,b){return a.score-b.score;});
+
+  var tRowsHTML=tStandings.length?tStandings.map(function(t,i){
+    var isFirst=i===0;
+    var diff=t.score-pSum*4;
+    var back=!isFirst&&tStandings[0].score?t.score-tStandings[0].score:0;
+    var rowCls=isFirst?'lbt-1':'lbt-n';
+    var homeCls=t.isHome?' lbt-home':'';
+    var tpCls=isFirst?'tp-1':'tp-n';
+    var diffColor=diff<0?'#4dcc80':diff>0?'#ff6b6b':'#c8a040';
+    var scoreColor=diff<0?'#4dcc80':diff>0?'#ff6b6b':'#fff';
+    return '<div class="lb-t-row '+rowCls+homeCls+'">'+
+      '<div class="lb-t-place-box '+tpCls+'">'+(i+1)+'</div>'+
+      '<div class="lb-t-bar" style="background:'+t.color+'"></div>'+
+      '<div class="lb-t-namecol">'+
+        '<div class="lb-t-name">'+esc(t.name)+'</div>'+
+      '</div>'+
+      (isFirst?'<span class="lb-t-badge lb-badge-lead">LEAD</span>':back>0?'<span class="lb-badge-back">+'+back+' back</span>':'')+
+      '<div class="lb-t-scorebox">'+
+        '<div class="lb-t-score" style="color:'+scoreColor+'">'+t.score+'</div>'+
+        '<div class="lb-t-diff" style="color:'+diffColor+'">'+fd(diff)+'</div>'+
+      '</div>'+
+    '</div>';
+  }).join(''):'<div class="lb-no-data">Enter scores to see standings</div>';
+
+  return '<div id="screen-lb" class="screen lb-screen '+(TAB==='lb'?'active':'')+'">'+
+    '<div class="lb-hdr">'+
+      '<img class="lb-logo" src="'+(STATE.schoolLogo||('data:image/png;base64,'+LOGO))+'" alt="'+esc(STATE.schoolName||'School')+'">'+
+      '<div><div class="lb-title">'+esc(STATE.schoolName||'Caston Comets')+'</div><div class="lb-subtitle">'+esc(STATE.schoolSub||'Boys Golf')+'</div><div class="lb-clock" id="lb-clock">⏱ '+timeStr+'</div></div>'+
+      '<div class="lb-brand-center"><div class="lb-brand-name">The Turn</div></div>'+
+      '<div class="lb-meta"><div class="lb-meta-course">'+esc(sheet.course||'Course TBD')+'</div><div class="lb-meta-info">'+(sheet.date||'')+' · '+holes+' Holes · Par '+(pSum||'—')+'</div></div>'+
+    '</div>'+
+    '<div class="lb-body">'+
+      '<div class="lb-col" id="lb-ind-col"><div class="lb-col-title">🏅 Individual Standings — Medalist Race <span style="font-size:10px;opacity:0.5;font-weight:400;letter-spacing:1px">(AUTO-SCROLL)</span></div><div id="lb-scroll-wrap" style="overflow-y:auto;max-height:calc(100vh - 200px);scrollbar-width:none" onmouseenter="lbScrollPaused=true" onmouseleave="lbScrollPaused=false" ontouchstart="lbScrollPaused=true" ontouchend="lbScrollPaused=false">'+playerRows+'</div></div>'+
+      '<div class="lb-divider"></div>'+
+      '<div class="lb-col"><div class="lb-col-title">🏆 All Teams — Best 4 of 5 Score <span style="font-size:10px;opacity:0.5;font-weight:400;letter-spacing:1px">(AUTO-SCROLL)</span></div><div id="lb-team-scroll-wrap" style="overflow-y:auto;max-height:calc(100vh - 200px);scrollbar-width:none" onmouseenter="lbTeamScrollPaused=true" onmouseleave="lbTeamScrollPaused=false" ontouchstart="lbTeamScrollPaused=true" ontouchend="lbTeamScrollPaused=false">'+tRowsHTML+'</div></div>'+
+    '</div>'+
+    '<button onclick="render()" style="position:fixed;bottom:20px;left:20px;background:#1a5fa0;color:#fff;border:none;border-radius:50px;padding:12px 22px;font-size:14px;font-weight:600;letter-spacing:1px;cursor:pointer;box-shadow:0 4px 16px rgba(26,95,160,0.5);z-index:999">🔄 Refresh</button><button class="lb-back-btn" onclick="goSheet()">← Back to Scoresheet</button>'+
+  '</div>';
+}
+
+// ── RENDER HISTORY ──────────────────────────────────────────────────────────
+function renderHistory() {
+  var matches=STATE.matches.filter(function(m){return m.season===STATE.season;});
+  var seasons=[...new Set(STATE.matches.map(function(m){return m.season;}))].sort().reverse();
+  var seasonOpts=seasons.map(function(s){return '<option value="'+s+'" '+(s===STATE.season?'selected':'')+'>'+s+'</option>';}).join('');
+  var undoBtn=STATE.matches.length?'<button class="undo-btn" onclick="undoMatch()">↩ Undo Last Save</button>':'';
+
+  var matchRows='<div style="text-align:center;padding:40px;color:#bbb"><div style="font-size:40px;margin-bottom:12px">⛳</div><div style="font-family:Oswald,sans-serif;font-size:16px">No matches saved yet</div></div>';
+  if(matches.length){
+    var rows=matches.slice().reverse().map(function(m){
+      var home=m.teams.find(function(t){return t.id==='t0';});
+      var opps=m.teams.filter(function(t){return t.id!=='t0';});
+      var pSum=m.pars.reduce(function(a,b){return a+(parseInt(b)||0);},0);
+      var homeScore=getTeamScore(home,'Varsity',m.pars,m.holes);
+      var oppNames=opps.map(function(o){return o.name||'?';}).join(', ');
+      var results=opps.map(function(opp){
+        var oppScore=getTeamScore(opp,'Varsity',m.pars,m.holes);
+        if(!homeScore||!oppScore) return '';
+        if(homeScore<oppScore) return '<span class="mh-win">WIN</span>';
+        if(homeScore>oppScore) return '<span class="mh-loss">LOSS</span>';
+        return '<span class="mh-tie">TIE</span>';
+      }).join(' ');
+      var med=m.medalist?'<span style="color:#c8a000;font-weight:700">🏅 '+esc(m.medalist.name)+' '+m.medalist.total+'</span>':'—';
+      return '<tr><td style="color:#888;font-size:12px;white-space:nowrap">'+m.date+'</td><td>'+esc(m.course||'—')+'</td><td>'+esc(oppNames)+'</td><td style="text-align:center;font-family:Oswald,sans-serif;font-weight:700">'+(homeScore||'—')+'</td><td style="text-align:center">'+results+'</td><td>'+med+'</td><td style="text-align:center;font-size:11px;color:#aaa">'+m.holes+'H</td><td style="text-align:center"><button data-mid="'+m.id+'" onclick="viewMatch(parseInt(this.dataset.mid))" style="background:#1a5fa0;color:#fff;border:none;border-radius:5px;padding:4px 10px;font-size:11px;font-weight:600;cursor:pointer">View</button></td></tr>';
+    }).join('');
+    matchRows='<table class="match-tbl"><thead><tr><th>Date</th><th>Course</th><th>Opponent(s)</th><th>Caston V</th><th>Result</th><th>Medalist</th><th>Holes</th><th></th></tr></thead><tbody>'+rows+'</tbody></table>';
+  }
+
+  // Player stats - all players combined
+  var allRoster=(STATE.roster.players||[]).filter(function(p){return p.name;});
+  var statCards=allRoster.map(function(player){
+    var rounds=matches.flatMap(function(m){
+      var home=m.teams.find(function(t){return t.id==='t0';});
+      if(!home) return [];
+      var entry=null;
+      ['Varsity','JV'].forEach(function(div){
+        if(!entry) entry=(home[div]||[]).find(function(e){return (e.selectedName||e.name||'')===player.name;});
+      });
+      if(!entry) return [];
+      var sc=entry.scores.length===m.holes?entry.scores:Array(m.holes).fill('');
+      var stats=analyze(sc,m.pars);
+      if(stats.played===0) return [];
+      var pSum=m.pars.reduce(function(a,b){return a+(parseInt(b)||0);},0);
+      return [{...stats,date:m.date,course:m.course,pSum:pSum,holes:m.holes}];
+    });
+    if(!rounds.length) return '<div class="stat-card"><div class="stat-name">'+esc(player.name)+'</div><div style="font-size:11px;color:#aaa;margin-top:4px">No rounds recorded</div></div>';
+    var totals=rounds.map(function(r){return r.total;});
+    var best=Math.min.apply(null,totals);
+    // Normalize every round to 9-hole equivalents — 18-hole counts as TWO 9-hole scores
+    var norm9vals = [];
+    rounds.forEach(function(r){
+      if(r.holes===18){ norm9vals.push(r.total/2); norm9vals.push(r.total/2); }
+      else { norm9vals.push(r.total); }
+    });
+    var avg9raw = norm9vals.reduce(function(a,b){return a+b;},0) / norm9vals.length;
+    var avg9 = avg9raw.toFixed(1);
+    var projected18 = (avg9raw*2).toFixed(1);
+    var avg=avg9; // keep for compatibility
+    var tE=rounds.reduce(function(a,r){return a+r.eagles;},0);
+    var tB=rounds.reduce(function(a,r){return a+r.birdies;},0);
+    var tP=rounds.reduce(function(a,r){return a+r.parC;},0);
+    var tBo=rounds.reduce(function(a,r){return a+r.bogeys;},0);
+    var tD=rounds.reduce(function(a,r){return a+r.doubles;},0);
+    var tT=rounds.reduce(function(a,r){return a+r.triples;},0);
+    var tM=rounds.reduce(function(a,r){return a+r.maxes;},0);
+    var bestR=rounds.find(function(r){return r.total===best;});
+    var bestDiff=best-(bestR?bestR.pSum:0);
+    var maxBar=Math.max(tE,tB,tP,tBo,tD,tT,tM,1);
+    var bars=[{l:'Eagles',v:tE,c:'#c8a000'},{l:'Birdies',v:tB,c:'#1a9a50'},{l:'Pars',v:tP,c:'#888'},{l:'Bogeys',v:tBo,c:'#e0b000'},{l:'Doubles',v:tD,c:'#d07000'},{l:'Triples',v:tT,c:'#c83000'},{l:'MAX',v:tM,c:'#7a0000'}].map(function(b){
+      return '<div class="bar-row"><span class="bar-lbl">'+b.l+'</span><div class="bar-wrap"><div class="bar-track"><div class="bar-fill" style="width:'+Math.round(b.v/maxBar*100)+'%;background:'+b.c+'"></div></div><span class="bar-val" style="color:'+b.c+'">'+b.v+'</span></div></div>';
+    }).join('');
+    var hist=rounds.length>1?'<div style="font-size:10px;color:#bbb;text-transform:uppercase;letter-spacing:1px;margin:10px 0 5px;padding-top:8px;border-top:1px solid #f0f0f0">Round History</div>'+rounds.slice().reverse().map(function(r){var d=r.total-r.pSum;var norm9=r.holes===18?r.total/2:r.total;return '<div style="display:flex;align-items:center;gap:8px;font-size:12px;margin-bottom:3px"><span style="color:#aaa;min-width:80px">'+r.date+'</span><span style="color:#888;flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis">'+esc(r.course||'—')+'</span><span style="font-size:10px;color:'+(r.holes===18?'#c8281e':'#1a5fa0')+';font-weight:700;min-width:22px">'+r.holes+'H</span><span style="font-family:Oswald,sans-serif;font-weight:700;color:'+dc(d)+'">'+r.total+'</span>'+(r.holes===18?'<span style="font-size:10px;color:#888">→ '+norm9.toFixed(1)+'</span>':'')+'<span style="font-size:10px;color:'+dc(d)+';min-width:24px;text-align:right">'+fd(d)+'</span></div>';}).join(''):'';
+    return '<div class="stat-card"><div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:10px"><div><div class="stat-name">'+esc(player.name)+'</div><div style="font-size:11px;color:#aaa;margin-top:2px">'+rounds.length+' round'+(rounds.length!==1?'s':'')+'</div></div><div style="text-align:right"><div style="display:flex;gap:10px"><div><div class="stat-avg" style="font-size:18px">'+avg9+'</div><div class="stat-avg-lbl">9-Hole Avg</div></div><div><div class="stat-avg" style="font-size:18px;color:#1a5fa0">'+projected18+'</div><div class="stat-avg-lbl">Projected 18</div></div></div></div></div><div class="best-box"><span style="font-size:10px;color:#5a9a78;text-transform:uppercase;letter-spacing:1px">Best Round</span><span style="font-family:Oswald,sans-serif;font-size:17px;font-weight:700;color:#1a7a40">'+best+'</span><span style="font-size:12px;color:#4a9a78">'+fd(bestDiff)+'</span><span style="font-size:11px;color:#aaa;margin-left:auto;text-align:right">'+esc(bestR?bestR.course:'')+'</span></div>'+bars+hist+'</div>';
+  }).join('');
+
+  return '<div id="screen-hist" class="screen '+(TAB==='hist'?'active':'')+'"><div class="hist-wrap"><div class="hist-controls"><select class="season-sel" onchange="onSeasonChange(this.value)"><option value="">-- Season --</option>'+seasonOpts+'</select>'+undoBtn+'</div><div style="font-family:Oswald,sans-serif;font-size:13px;color:#888;margin-bottom:10px;letter-spacing:1px">MATCH LOG</div>'+matchRows+(allRoster.length?'<div style="font-family:Oswald,sans-serif;font-size:13px;color:#888;margin-bottom:10px;letter-spacing:1px;margin-top:20px">PLAYER STATS — FULL TEAM</div><div class="stats-grid">'+statCards+'</div>':'')+'</div></div>';
+}
+
+
+// ── RENDER SCHEDULE / DRAFTS ──────────────────────────────────────────────
+var SCHEDULE = [{"num": 1, "date": "4/17/2026", "opp": "Frontier/Tri", "time": "4:30", "course": "Pine View", "holes": 9, "hasJV": true, "numTeams": 3}, {"num": 2, "date": "4/18/2026", "opp": "Caston Inv", "time": "9:00", "course": "Pond View", "holes": 18, "hasJV": false, "numTeams": 11}, {"num": 3, "date": "4/21/2026", "opp": "Winamac", "time": "5:30", "course": "Moss Creek", "holes": 9, "hasJV": true, "numTeams": 2}, {"num": 4, "date": "4/25/2026", "opp": "Logan Inv", "time": "8:00", "course": "Dykeman", "holes": 18, "hasJV": false, "numTeams": 8}, {"num": 5, "date": "5/1/2026", "opp": "North Miami", "time": "5:00", "course": "Peru Muni", "holes": 9, "hasJV": true, "numTeams": 2}, {"num": 6, "date": "5/4/2026", "opp": "North Jud", "time": "5:15", "course": "Pond View", "holes": 9, "hasJV": true, "numTeams": 2}, {"num": 7, "date": "5/9/2026", "opp": "Pioneer Inv", "time": "9:00", "course": "Pond View", "holes": 18, "hasJV": false, "numTeams": 8}, {"num": 8, "date": "5/11/2026", "opp": "Roch/Tri", "time": "4:30", "course": "Round Barn", "holes": 9, "hasJV": true, "numTeams": 3}, {"num": 9, "date": "5/12/2026", "opp": "Demot/Knox", "time": "5:30", "course": "Chesapeake Run", "holes": 9, "hasJV": true, "numTeams": 3}, {"num": 10, "date": "5/21/2026", "opp": "Winamac", "time": "5:00", "course": "Pond View", "holes": 9, "hasJV": true, "numTeams": 2}, {"num": 11, "date": "5/23/2026", "opp": "HNAC", "time": "9:00", "course": "Round Barn", "holes": 18, "hasJV": false, "numTeams": 8}, {"num": 12, "date": "6/2/2026", "opp": "Pioneer/Cul", "time": "4:30", "course": "Pond View", "holes": 9, "hasJV": true, "numTeams": 3}, {"num": 13, "date": "6/5/2026", "opp": "Sectional", "time": "9:30", "course": "Dykeman", "holes": 18, "hasJV": false, "numTeams": 16}];
+
+function renderDrafts() {
+  var rows = SCHEDULE.map(function(m) {
+    var draft = STATE.drafts.find(function(d){ return d.scheduleNum === m.num; });
+    var hasDraft = !!draft;
+    var isInv = m.numTeams > 3;
+    var isCancelled = STATE.cancellations.indexOf(m.num) >= 0;
+    var savedMatches = STATE.matches.filter(function(sm){
+      if(sm.scheduleNum) return sm.scheduleNum === m.num;
+      // Legacy fallback: match by date and course
+      var smDate = (sm.date||'').replace(/\//g,'-');
+      var mDate = (m.date||'').replace(/\//g,'-');
+      return smDate === mDate || (sm.course&&m.course&&sm.course.toLowerCase()===m.course.toLowerCase()&&smDate===mDate);
+    });
+    var isPlayed = savedMatches.length > 0;
+
+    // Row background
+    var rowBg = isCancelled ? 'background:#f8f0f0' : isInv ? 'background:#fffbee' : 'background:#fff';
+    var rowOpacity = isCancelled ? 'opacity:0.65' : '';
+
+    // Score summary for played matches
+    var scoreSummary = '';
+    if(isPlayed){
+      var sm = savedMatches[0];
+      var homeTeam = sm.teams && sm.teams.find(function(t){return t.id==='t0';});
+      if(homeTeam){
+        var hScore = getTeamScore(homeTeam,'Varsity',sm.pars,sm.holes);
+        var opps = sm.teams.filter(function(t){return !t.isHome;});
+        var results = opps.map(function(opp){
+          var oScore = getTeamScore(opp,'Varsity',sm.pars,sm.holes);
+          if(!hScore||!oScore) return '';
+          if(hScore<oScore) return '<span style="color:#1a7a40;font-weight:700">W</span>';
+          if(hScore>oScore) return '<span style="color:#c8281e;font-weight:700">L</span>';
+          return '<span style="color:#888;font-weight:700">T</span>';
+        }).join('/');
+        scoreSummary = hScore ? ' <span style="font-family:Oswald,sans-serif;font-size:12px;color:#555">('+hScore+(results?' · '+results:'')+')</span>' : '';
+      }
+    }
+
+    // Opponent name cell
+    var oppCell = isCancelled
+      ? '<span style="text-decoration:line-through;color:#aaa">'+esc(m.opp)+(isInv?' ⭐':'')+'</span> <span style="font-size:10px;color:#c8281e;font-weight:700;background:#fde8e8;padding:1px 6px;border-radius:3px">CANCELLED</span>'
+      : isPlayed
+        ? esc(m.opp)+(isInv?' ⭐':'')+' <span style="font-size:10px;color:#1a7a40;font-weight:700;background:#d4f0e0;padding:1px 6px;border-radius:3px">✓ COMPLETED</span>'
+        : esc(m.opp)+(isInv?' ⭐':'');
+
+    // Status badge
+    var statusBadge;
+    if(isCancelled){
+      statusBadge = '<span style="background:#fde8e8;color:#c8281e;font-family:Oswald,sans-serif;font-size:11px;font-weight:700;padding:3px 10px;border-radius:5px">⛔ CANCELLED</span>';
+    } else if(isPlayed){
+      statusBadge = '<span style="background:#d4f0e0;color:#1a7a40;font-family:Oswald,sans-serif;font-size:11px;font-weight:700;padding:3px 10px;border-radius:5px">✓ PLAYED</span>';
+    } else if(hasDraft){
+      statusBadge = '<span style="background:#fff0c0;color:#8a6000;font-family:Oswald,sans-serif;font-size:11px;font-weight:700;padding:3px 10px;border-radius:5px">📝 DRAFT READY</span>';
+    } else {
+      statusBadge = '<span style="background:#f0f0f0;color:#aaa;font-family:Oswald,sans-serif;font-size:11px;font-weight:700;padding:3px 10px;border-radius:5px">NOT SET UP</span>';
+    }
+
+    // Action buttons
+    var actions;
+    if(isCancelled){
+      actions = '<button onclick="uncancelMatch('+m.num+')" style="'+btnStyle('#1a5fa0')+'">↩ Uncancel</button>';
+    } else if(isPlayed){
+      actions = '<button onclick="setupDraft('+m.num+')" style="'+btnStyle('#888')+'">Edit Setup</button>'+
+                '<button onclick="cancelMatch('+m.num+')" style="'+btnStyle('#c83000')+'">⛔ Cancel</button>';
+    } else if(hasDraft){
+      actions = '<button onclick="loadDraft('+m.num+')" style="'+btnStyle('#1a7a40')+'">▶ Load &amp; Score</button>'+
+                '<button onclick="setupDraft('+m.num+')" style="'+btnStyle('#1a5fa0')+'">Edit</button>'+
+                '<button onclick="deleteDraft('+m.num+')" style="'+btnStyle('#888')+'">✕</button>'+
+                '<button onclick="cancelMatch('+m.num+')" style="'+btnStyle('#c83000')+'">⛔</button>';
+    } else {
+      actions = '<button onclick="setupDraft('+m.num+')" style="'+btnStyle('#c8281e')+'">+ Set Up</button>'+
+                '<button onclick="cancelMatch('+m.num+')" style="'+btnStyle('#c83000')+'">⛔ Cancel</button>';
+    }
+
+    return '<tr style="'+rowBg+';'+rowOpacity+';border-bottom:1px solid #f0f0f0">'+
+      '<td style="padding:10px 12px;font-family:Oswald,sans-serif;font-size:13px;color:#888;white-space:nowrap">'+m.date+'</td>'+
+      '<td style="padding:10px 12px;font-size:13px;color:#888;white-space:nowrap">'+m.time+'</td>'+
+      '<td style="padding:10px 12px;font-family:Oswald,sans-serif;font-size:14px;font-weight:700;color:'+(isInv&&!isCancelled?'#8a6000':'#1a1a1a')+'">'+oppCell+scoreSummary+'</td>'+
+      '<td style="padding:10px 12px;font-size:13px;color:#555">'+m.course+'</td>'+
+      '<td style="padding:10px 12px;text-align:center;font-family:Oswald,sans-serif;font-size:13px;font-weight:700;color:'+(m.holes===18?'#c8281e':'#1a5fa0')+'">'+m.holes+'H</td>'+
+      '<td style="padding:10px 12px;text-align:center;font-size:12px;color:#888">'+m.numTeams+' teams</td>'+
+      '<td style="padding:10px 12px;text-align:center">'+(m.hasJV?'<span style="color:#1a7a40;font-weight:700;font-size:12px">✓ JV</span>':'<span style="color:#bbb;font-size:12px">No JV</span>')+'</td>'+
+      '<td style="padding:10px 12px;text-align:center">'+statusBadge+'</td>'+
+      '<td style="padding:10px 12px;text-align:right;white-space:nowrap">'+actions+'</td>'+
+    '</tr>';
+  }).join('');
+
+  return '<div id="screen-drafts" class="screen '+(TAB==='drafts'?'active':'')+'">'+
+    '<div style="padding:18px 20px">'+
+      '<div style="display:flex;align-items:center;gap:16px;margin-bottom:16px;flex-wrap:wrap">'+
+        '<div style="font-family:Oswald,sans-serif;font-size:20px;font-weight:700;color:#0d1a3a;letter-spacing:1px">📅 2026 Season Schedule</div>'+
+        '<span style="font-size:12px;color:#aaa">⭐ = Invitational / Tournament</span>'+
+        '<span style="font-size:12px;color:#c8281e;font-weight:600">18H = 18 holes</span>'+
+        '<span style="font-size:12px;color:#1a5fa0;font-weight:600">9H = 9 holes</span>'+
+      '</div>'+
+      '<div style="background:#fff;border:1.5px solid #e0e0e0;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06)">'+
+        '<div style="overflow-x:auto">'+
+          '<table style="width:100%;border-collapse:collapse">'+
+            '<thead><tr style="background:#0d1a3a">'+
+              '<th style="'+thStyle+'">Date</th>'+
+              '<th style="'+thStyle+'">Time</th>'+
+              '<th style="'+thStyle+'">Opponent</th>'+
+              '<th style="'+thStyle+'">Course</th>'+
+              '<th style="'+thStyle+'">Holes</th>'+
+              '<th style="'+thStyle+'"># Teams</th>'+
+              '<th style="'+thStyle+'">JV</th>'+
+              '<th style="'+thStyle+'">Status</th>'+
+              '<th style="'+thStyle+'">Action</th>'+
+            '</tr></thead>'+
+            '<tbody>'+rows+'</tbody>'+
+          '</table>'+
+        '</div>'+
+      '</div>'+
+
+
+    '</div>'+
+  '</div>';
+}
+
+var thStyle = 'color:#fff;font-family:Oswald,sans-serif;font-size:11px;font-weight:600;letter-spacing:1px;padding:10px 12px;text-align:left;white-space:nowrap';
+function btnStyle(color){ return 'background:'+color+';color:#fff;border:none;border-radius:6px;padding:6px 12px;font-family:Oswald,sans-serif;font-size:12px;font-weight:600;cursor:pointer;margin-right:4px'; }
+
+function cancelMatch(num){
+  if(!confirm('Mark match #'+num+' as cancelled?')) return;
+  if(STATE.cancellations.indexOf(num)<0) STATE.cancellations.push(num);
+  save(); render();
+}
+function uncancelMatch(num){
+  STATE.cancellations = STATE.cancellations.filter(function(n){return n!==num;});
+  save(); render();
+}
+
+// ── DRAFT SETUP MODAL ──────────────────────────────────────────────────────
+function setupDraft(num) {
+  var m = SCHEDULE.find(function(s){ return s.num===num; });
+  if(!m) return;
+  var existing = STATE.drafts.find(function(d){ return d.scheduleNum===num; }) || {};
+
+  var numTeams = existing.numTeams || m.numTeams;
+  var hasJV    = existing.hasJV !== undefined ? existing.hasJV : m.hasJV;
+  var holes    = existing.holes || m.holes;
+  var castonPlayers = existing.castonPlayers || [];
+  var allRosterPlayers = (STATE.roster.players||[]).filter(function(p){return p.name;});
+
+  // Build Caston player inputs
+  var vCount = 5;
+  var jCount = hasJV ? 3 : 0;
+
+  function castonSection() {
+    var opts = '<option value="">-- Select --</option>'+allRosterPlayers.map(function(p){
+      return '<option value="'+esc(p.name)+'">'+esc(p.name)+'</option>';
+    }).join('');
+    function makeRow(label, inputId, savedVal) {
+      var val = savedVal||'';
+      var isFromRoster = allRosterPlayers.some(function(p){return p.name===val;});
+      var selectHtml = '<select id="'+inputId+'" style="background:#f5f5f5;border:1.5px solid #c8281e;border-radius:6px;padding:5px 10px;font-size:13px;outline:none;flex:1;cursor:pointer">'+
+        opts.replace('value="'+esc(val)+'"','value="'+esc(val)+'" selected')+
+        (val&&!isFromRoster?'<option value="'+esc(val)+'" selected>'+esc(val)+'</option>':'')+
+        '</select>';
+      return '<div style="display:flex;align-items:center;gap:8px;margin-bottom:5px">'+
+        '<span style="font-size:11px;color:#888;min-width:55px">'+label+'</span>'+
+        selectHtml+'</div>';
+    }
+    var vRows = '';
+    for(var i=0;i<vCount;i++) vRows += makeRow('Varsity '+(i+1)+':','caston-v-'+i, castonPlayers[i]||'');
+    var jRows = '';
+    if(hasJV) for(var j=0;j<jCount;j++) jRows += makeRow('JV '+(j+1)+':','caston-j-'+j, castonPlayers[vCount+j]||'');
+    return '<div style="margin-bottom:16px;background:#fff5f5;border:1.5px solid #c8281e;border-radius:8px;padding:12px">'+
+      '<div style="font-size:11px;font-weight:700;color:#c8281e;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">'+
+        'Caston Comets Players</div>'+
+      vRows + jRows +
+    '</div>';
+  }
+
+  // Build opponent team + player inputs
+  function oppSection() {
+    var out = '';
+    for(var i=1;i<numTeams;i++){
+      var savedName    = (existing.opponentNames&&existing.opponentNames[i-1])||'';
+      var savedPlayers = (existing.opponentPlayers&&existing.opponentPlayers[i-1])||[];
+      var vCount2 = 5;
+      var jCount2 = hasJV ? 3 : 0;
+      var pRows = '';
+      for(var p=0;p<vCount2;p++){
+        var pval = savedPlayers[p]||'';
+        pRows += '<div style="display:flex;align-items:center;gap:6px;margin-bottom:4px">'+
+          '<span style="font-size:10px;color:#aaa;min-width:48px">Varsity '+(p+1)+':</span>'+
+          '<input id="opp-'+i+'-v-'+p+'" value="'+esc(pval)+'" placeholder="Player name" '+
+            'style="background:#f9f9f9;border:1.5px solid #ddd;border-radius:5px;padding:4px 8px;font-size:12px;outline:none;flex:1">'+
+          '</div>';
+      }
+      if(hasJV){
+        for(var j2=0;j2<jCount2;j2++){
+          var jval = savedPlayers[vCount2+j2]||'';
+          pRows += '<div style="display:flex;align-items:center;gap:6px;margin-bottom:4px">'+
+            '<span style="font-size:10px;color:#aaa;min-width:48px">JV '+(j2+1)+':</span>'+
+            '<input id="opp-'+i+'-j-'+j2+'" value="'+esc(jval)+'" placeholder="Player name" '+
+              'style="background:#f9f9f9;border:1.5px solid #ddd;border-radius:5px;padding:4px 8px;font-size:12px;outline:none;flex:1">'+
+            '</div>';
+        }
+      }
+      var tc = TEAM_COLORS[(i)%TEAM_COLORS.length];
+      out += '<div style="margin-bottom:12px;border:1.5px solid #e0e0e0;border-radius:8px;overflow:hidden">'+
+        '<div style="background:'+tc+';padding:8px 12px">'+
+          '<input id="draft-opp-'+i+'" value="'+esc(savedName)+'" placeholder="Opponent '+i+' Team Name" '+
+            'style="background:transparent;border:none;border-bottom:1.5px solid rgba(255,255,255,0.4);color:#fff;'+
+            'font-family:Oswald,sans-serif;font-size:14px;font-weight:600;outline:none;width:100%;letter-spacing:0.5px">'+
+        '</div>'+
+        '<div style="padding:10px 12px;background:#fafafa">'+pRows+'</div>'+
+      '</div>';
+    }
+    return out;
+  }
+
+  var modal =
+    '<div style="background:#fff;border-radius:12px;padding:24px;max-width:560px;width:95%;max-height:92vh;overflow-y:auto;box-shadow:0 8px 32px rgba(0,0,0,0.3)">'+
+      '<div style="font-family:Oswald,sans-serif;font-size:18px;font-weight:700;color:#0d1a3a;margin-bottom:2px">Set Up Match</div>'+
+      '<div style="font-size:12px;color:#888;margin-bottom:16px">'+m.date+' · '+m.opp+' · '+m.course+'</div>'+
+
+      // Settings row
+      '<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:16px">'+
+        '<div>'+
+          '<div style="font-size:10px;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:1px;margin-bottom:5px">Holes</div>'+
+          '<div style="display:flex;background:#f5f5f5;border:1.5px solid #ddd;border-radius:7px;overflow:hidden">'+
+            '<button onclick="draftSetHoles(9,'+num+')" style="flex:1;padding:7px;border:none;cursor:pointer;font-family:Oswald,sans-serif;font-size:13px;font-weight:600;background:'+(holes===9?'#c8281e':'transparent')+';color:'+(holes===9?'#fff':'#999')+'">9</button>'+
+            '<button onclick="draftSetHoles(18,'+num+')" style="flex:1;padding:7px;border:none;cursor:pointer;font-family:Oswald,sans-serif;font-size:13px;font-weight:600;background:'+(holes===18?'#c8281e':'transparent')+';color:'+(holes===18?'#fff':'#999')+'">18</button>'+
+          '</div>'+
+        '</div>'+
+        '<div>'+
+          '<div style="font-size:10px;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:1px;margin-bottom:5px">JV</div>'+
+          '<div style="display:flex;background:#f5f5f5;border:1.5px solid #ddd;border-radius:7px;overflow:hidden">'+
+            '<button onclick="draftSetJV(true,'+num+')" style="flex:1;padding:7px;border:none;cursor:pointer;font-family:Oswald,sans-serif;font-size:12px;font-weight:600;background:'+(hasJV?'#c8281e':'transparent')+';color:'+(hasJV?'#fff':'#999')+'">YES</button>'+
+            '<button onclick="draftSetJV(false,'+num+')" style="flex:1;padding:7px;border:none;cursor:pointer;font-family:Oswald,sans-serif;font-size:12px;font-weight:600;background:'+(!hasJV?'#0d1a3a':'transparent')+';color:'+(!hasJV?'#fff':'#999')+'">NO</button>'+
+          '</div>'+
+        '</div>'+
+        '<div>'+
+          '<div style="font-size:10px;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:1px;margin-bottom:5px"># Teams</div>'+
+          '<input id="draft-numteams" type="number" min="2" max="20" value="'+numTeams+'" '+
+            'style="background:#f5f5f5;border:1.5px solid #ddd;border-radius:7px;padding:7px;font-size:14px;outline:none;width:100%;text-align:center">'+
+        '</div>'+
+      '</div>'+
+
+      // Caston players
+      castonSection()+
+
+      // Opponent teams + players
+      '<div style="font-size:11px;font-weight:700;color:#0d1a3a;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px">Opponent Teams &amp; Players</div>'+
+      '<div id="draft-team-inputs">'+oppSection()+'</div>'+
+
+      // Buttons
+      '<div style="display:flex;gap:8px;justify-content:flex-end;margin-top:18px;flex-wrap:wrap">'+
+        '<button onclick="closeDraftModal()" style="background:#f0f0f0;color:#555;border:none;border-radius:7px;padding:10px 18px;font-family:Oswald,sans-serif;font-size:13px;font-weight:600;cursor:pointer">Cancel</button>'+
+        '<button onclick="saveDraft('+num+')" style="background:#1a7a40;color:#fff;border:none;border-radius:7px;padding:10px 18px;font-family:Oswald,sans-serif;font-size:13px;font-weight:600;cursor:pointer">💾 Save Draft</button>'+
+        '<button onclick="saveDraftAndLoad('+num+')" style="background:#c8281e;color:#fff;border:none;border-radius:7px;padding:10px 18px;font-family:Oswald,sans-serif;font-size:13px;font-weight:600;cursor:pointer">▶ Save &amp; Score Now</button>'+
+      '</div>'+
+    '</div>';
+
+  var overlay = document.getElementById('draft-modal');
+  if(!overlay){
+    overlay = document.createElement('div');
+    overlay.id = 'draft-modal';
+    overlay.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.55);z-index:1000;display:flex;align-items:center;justify-content:center';
+    overlay.onclick = function(e){ if(e.target===overlay) closeDraftModal(); };
+    document.body.appendChild(overlay);
+  }
+  overlay.style.display = 'flex';
+  overlay.innerHTML = modal;
+  overlay.dataset.num  = num;
+  overlay.dataset.holes = holes;
+  overlay.dataset.hasJV = hasJV;
+  overlay.dataset.vcount = 5;
+  overlay.dataset.jcount = hasJV ? 3 : 0;
+  overlay.dataset.numteams = numTeams;
+}
+
+function draftSetHoles(h, num){
+  var overlay = document.getElementById('draft-modal');
+  overlay.dataset.holes = h;
+  setupDraftRefresh(num, h, overlay.dataset.hasJV==='true');
+}
+function draftSetJV(v, num){
+  var overlay = document.getElementById('draft-modal');
+  overlay.dataset.hasJV = v;
+  setupDraftRefresh(num, parseInt(overlay.dataset.holes), v);
+}
+function setupDraftRefresh(num, holes, hasJV){
+  // Re-open with updated values temporarily stored
+  var existing = STATE.drafts.find(function(d){ return d.scheduleNum===num; }) || {};
+  existing.holes = holes;
+  existing.hasJV = hasJV;
+  // Capture current team names before refresh
+  var m = SCHEDULE.find(function(s){ return s.num===num; });
+  var numTeams = parseInt(document.getElementById('draft-numteams')?document.getElementById('draft-numteams').value:m.numTeams);
+  var names = [];
+  for(var i=1;i<numTeams;i++){
+    var inp = document.getElementById('draft-opp-'+i);
+    names.push(inp?inp.value:'');
+  }
+  existing.opponentNames = names;
+  // Save player names too during refresh
+  var vC = 5;
+  var jC = hasJV ? 3 : 0;
+  var cp = [];
+  for(var vi=0;vi<vC;vi++){ var vi2=document.getElementById('caston-v-'+vi); cp.push(vi2?vi2.value:''); }
+  for(var ji=0;ji<jC;ji++){ var ji2=document.getElementById('caston-j-'+ji); cp.push(ji2?ji2.value:''); }
+  existing.castonPlayers = cp;
+  var op = [];
+  for(var oi=1;oi<numTeams;oi++){
+    var pl=[];
+    for(var p=0;p<5;p++){ var pe=document.getElementById('opp-'+oi+'-v-'+p); pl.push(pe?pe.value:''); }
+    for(var j2=0;j2<3;j2++){ var je=document.getElementById('opp-'+oi+'-j-'+j2); pl.push(je?je.value:''); }
+    op.push(pl);
+  }
+  existing.opponentPlayers = op;
+  existing.numTeams = numTeams;
+  existing.scheduleNum = num;
+  // Update drafts array temporarily
+  var idx = STATE.drafts.findIndex(function(d){ return d.scheduleNum===num; });
+  if(idx>=0) STATE.drafts[idx]=existing; else STATE.drafts.push(existing);
+  setupDraft(num);
+}
+
+function closeDraftModal(){
+  var overlay = document.getElementById('draft-modal');
+  if(overlay) overlay.style.display = 'none';
+}
+
+function collectDraftData(num){
+  var m = SCHEDULE.find(function(s){ return s.num===num; });
+  var overlay = document.getElementById('draft-modal');
+  var holes = parseInt(overlay.dataset.holes) || m.holes;
+  var hasJV = overlay.dataset.hasJV === 'true';
+  var numTeams = parseInt(document.getElementById('draft-numteams').value) || m.numTeams;
+  var vCount = parseInt(overlay.dataset.vcount)||5;
+  var jCount = parseInt(overlay.dataset.jcount)||0;
+
+  // Caston players
+  var castonPlayers = [];
+  for(var vi=0;vi<vCount;vi++){
+    var vinp = document.getElementById('caston-v-'+vi);
+    castonPlayers.push(vinp?vinp.value:'');
+  }
+  for(var ji=0;ji<jCount;ji++){
+    var jinp = document.getElementById('caston-j-'+ji);
+    castonPlayers.push(jinp?jinp.value:'');
+  }
+
+  // Opponent names and players
+  var names = [];
+  var oppPlayers = [];
+  for(var i=1;i<numTeams;i++){
+    var inp = document.getElementById('draft-opp-'+i);
+    names.push(inp?inp.value:'');
+    var pList = [];
+    for(var p=0;p<5;p++){
+      var pinp = document.getElementById('opp-'+i+'-v-'+p);
+      pList.push(pinp?pinp.value:'');
+    }
+    for(var j2=0;j2<3;j2++){
+      var jinp2 = document.getElementById('opp-'+i+'-j-'+j2);
+      pList.push(jinp2?jinp2.value:'');
+    }
+    oppPlayers.push(pList);
+  }
+
+  return {
+    scheduleNum: num,
+    date: m.date,
+    course: m.course,
+    holes: holes,
+    hasJV: hasJV,
+    numTeams: numTeams,
+    opponentNames: names,
+    castonPlayers: castonPlayers,
+    opponentPlayers: oppPlayers,
+  };
+}
+
+function saveDraft(num){
+  var data = collectDraftData(num);
+  var idx = STATE.drafts.findIndex(function(d){ return d.scheduleNum===num; });
+  if(idx>=0) STATE.drafts[idx]=data; else STATE.drafts.push(data);
+  save();
+  closeDraftModal();
+  render();
+}
+
+function saveDraftAndLoad(num){
+  saveDraft(num);
+  loadDraft(num);
+}
+
+function loadDraft(num){
+  var draft = STATE.drafts.find(function(d){ return d.scheduleNum===num; });
+  if(!draft){ alert('No draft found for this match.'); return; }
+  var m = SCHEDULE.find(function(s){ return s.num===num; });
+
+  // Build the sheet from draft
+  var holes = draft.holes || m.holes;
+  var hasJV = draft.hasJV !== undefined ? draft.hasJV : m.hasJV;
+  var numTeams = draft.numTeams || m.numTeams;
+  var names = draft.opponentNames || [];
+
+  // Parse date to yyyy-mm-dd
+  var parts = (draft.date||m.date).split('/');
+  var dateStr = parts.length===3 ? parts[2]+'-'+parts[0].padStart(2,'0')+'-'+parts[1].padStart(2,'0') : new Date().toISOString().slice(0,10);
+
+  var teams = buildTeams(numTeams, holes);
+  // Apply opponent names and players
+  for(var i=1;i<teams.length;i++){
+    teams[i].name = names[i-1] || '';
+    // Pre-fill opponent player names
+    var oppPList = draft.opponentPlayers && draft.opponentPlayers[i-1] ? draft.opponentPlayers[i-1] : [];
+    ['Varsity','JV'].forEach(function(div){
+      teams[i][div].forEach(function(e,idx){
+        var pidx = div==='JV' ? 5+idx : idx;
+        e.name = oppPList[pidx] || '';
+      });
+    });
+  }
+  // Pre-fill Caston player selections
+  var castonPlayers = draft.castonPlayers || [];
+  var vCount = 5;
+  ['Varsity','JV'].forEach(function(div){
+    teams[0][div].forEach(function(e,idx){
+      var pidx = div==='JV' ? vCount+idx : idx;
+      var playerName = castonPlayers[pidx] || '';
+      if(playerName) e.selectedName = playerName;
+    });
+  });
+
+  STATE.sheet = {
+    holes: holes,
+    pars: Array(holes).fill(''),
+    date: dateStr,
+    course: draft.course || m.course,
+    hasJV: hasJV,
+    numTeams: numTeams,
+    teams: teams,
+    scheduleNum: num,
+  };
+  save();
+  setTab('sheet');
+}
+
+function deleteDraft(num){
+  if(!confirm('Delete this draft setup?')) return;
+  snapshotForUndo('Draft');
+  STATE.drafts = STATE.drafts.filter(function(d){ return d.scheduleNum!==num; });
+  save(); render();
+  showUndoToast('Draft');
+}
+
+
+// ── RENDER ROSTER ───────────────────────────────────────────────────────────
+function renderRoster() {
+  var players = STATE.roster.players||[];
+  var rows = players.map(function(p,i){
+    return '<div class="roster-row">'+
+      '<span class="roster-num">'+(i+1)+'</span>'+
+      '<input class="roster-inp" value="'+esc(p.name)+'" placeholder="Player '+(i+1)+'" data-idx="'+i+'" oninput="onRosterName(this)">'+
+      '<button onclick="removeRosterPlayer('+i+')" style="background:none;border:none;color:#ddd;font-size:16px;cursor:pointer;padding:2px 6px;line-height:1;margin-left:4px" onmouseover="this.style.color=\'#e06060\'" onmouseout="this.style.color=\'#ddd\'">×</button>'+
+    '</div>';
+  }).join('');
+  return '<div id="screen-roster" class="screen '+(TAB==='roster'?'active':'')+'"><div class="roster-wrap">'+
+    '<div class="season-inp-row">'+
+      '<span class="slbl">Season</span>'+
+      '<input class="settings-inp" style="flex:none;width:120px" value="'+esc(STATE.roster.season)+'" placeholder="e.g. 2025-26" oninput="onRosterSeason(this.value)">'+
+      '<span style="font-size:12px;color:#aaa">Labels your stats year to year</span>'+
+    '</div>'+
+    '<div style="background:#fff;border:1.5px solid #e0e0e0;border-radius:10px;padding:16px 18px;margin-bottom:16px;max-width:400px">'+
+      '<div class="roster-sec-lbl" style="margin-bottom:14px;display:flex;align-items:center;justify-content:space-between">🏌️ Team Roster <span id="roster-saved-badge" style="font-family:Source Sans 3,sans-serif;font-size:11px;font-weight:400;color:#aaa;opacity:0.4;letter-spacing:0;text-transform:none;transition:all 0.3s">● Auto-saves as you type</span></div>'+
+      '<div style="font-size:11px;color:#aaa;margin-bottom:12px">Any player can be assigned to Varsity or JV slots on the scoresheet.</div>'+
+      rows+
+      '<button class="roster-add-btn" onclick="addRosterPlayer()" style="margin-top:8px">+ Add Player</button>'+
+    '</div>'+
+    '<div style="background:#fff;border:1.5px solid #e0e0e0;border-radius:10px;padding:16px 18px;max-width:400px">'+
+      '<div class="roster-sec-lbl" style="margin-bottom:14px">🏫 School Info</div>'+
+      '<div style="display:flex;flex-direction:column;gap:10px">'+
+        '<div style="display:flex;align-items:center;gap:10px">'+
+          '<span style="font-size:12px;color:#888;min-width:90px">School / Team</span>'+
+          '<input class="roster-inp" style="flex:1" value="'+esc(STATE.schoolName)+'" placeholder="e.g. Caston Comets" oninput="STATE.schoolName=this.value;save();updateHeader()">'+
+        '</div>'+
+        '<div style="display:flex;align-items:center;gap:10px">'+
+          '<span style="font-size:12px;color:#888;min-width:90px">Subtitle</span>'+
+          '<input class="roster-inp" style="flex:1" value="'+esc(STATE.schoolSub)+'" placeholder="e.g. Boys Golf" oninput="STATE.schoolSub=this.value;save();updateHeader()">'+
+        '</div>'+
+        '<div style="display:flex;align-items:center;gap:10px">'+
+          '<span style="font-size:12px;color:#888;min-width:90px">School Logo</span>'+
+          '<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">'+
+            (STATE.schoolLogo?'<img src="'+STATE.schoolLogo+'" style="height:44px;width:auto;border-radius:4px;border:1px solid #eee" alt="logo">':'<span style="font-size:11px;color:#bbb">No logo uploaded</span>')+
+            '<label style="background:#1a5fa0;color:#fff;border:none;border-radius:6px;padding:6px 12px;font-family:Oswald,sans-serif;font-size:12px;font-weight:600;cursor:pointer">'+
+              '📁 Upload Logo'+
+              '<input type="file" accept="image/*" onchange="uploadLogo(this)" style="display:none">'+
+            '</label>'+
+            (STATE.schoolLogo?'<button onclick="clearLogo()" style="background:#f0f0f0;border:none;border-radius:6px;padding:6px 10px;font-size:12px;cursor:pointer;color:#888">✕ Remove</button>':'')+
+          '</div>'+
+        '</div>'+
+      '</div>'+
+    '</div>'+
+  '</div></div>';
+}
+
+// ── RENDER SETTINGS ─────────────────────────────────────────────────────────
+function renderSettings() {
+  var hasUrl=STATE.sheetsUrl&&STATE.sheetsUrl.length>10;
+  var script="function doPost(e){try{var ss=SpreadsheetApp.getActiveSpreadsheet();var data=JSON.parse(e.postData.contents);var season=data.season||'Unknown';var sheet=ss.getSheetByName(season);if(!sheet){sheet=ss.insertSheet(season);var headers=['Date','Course','Holes','Season','Team','Division','Player','H1','H2','H3','H4','H5','H6','H7','H8','H9','H10','H11','H12','H13','H14','H15','H16','H17','H18','Total','+/-','Team Score','Team +/-','Eagles','Birdies','Pars','Bogeys','Doubles','Triples','MAX','Role','Medalist'];sheet.appendRow(headers);sheet.getRange(1,1,1,headers.length).setBackground('#0d1a3a').setFontColor('#ffffff').setFontWeight('bold');sheet.setFrozenRows(1);}var rows=data.rows||[];rows.forEach(function(row){sheet.appendRow(row);});return ContentService.createTextOutput(JSON.stringify({status:'ok',rows:rows.length})).setMimeType(ContentService.MimeType.JSON);}catch(err){return ContentService.createTextOutput(JSON.stringify({status:'error',message:err.toString()})).setMimeType(ContentService.MimeType.JSON);}}function doGet(e){return ContentService.createTextOutput(JSON.stringify({status:'ok',message:'Caston Golf connected!'})).setMimeType(ContentService.MimeType.JSON);}";
+  var demoCard = DEMO_MODE
+    ? '<div class="settings-card" style="border:2px solid #e08020;background:#fffbf0">'+
+        '<div class="settings-title" style="color:#c06000">🎭 Demo Mode — ACTIVE</div>'+
+        '<div style="font-size:13px;color:#666;margin-bottom:14px;line-height:1.6">You\'re currently in a sandbox. All scores and data here are demo-only. Your real season data is completely untouched.</div>'+
+        '<button onclick="exitDemoMode()" style="background:#c8281e;color:#fff;border:none;border-radius:7px;padding:10px 20px;font-family:Oswald,sans-serif;font-size:13px;font-weight:600;cursor:pointer">↩ Exit Demo &amp; Return to Real Data</button>'+
+      '</div>'
+    : '<div class="settings-card">'+
+        '<div class="settings-title">🎭 Demo Mode</div>'+
+        '<div style="font-size:13px;color:#666;margin-bottom:14px;line-height:1.6">Want to show someone how the app works without touching your real season data? Enter Demo Mode — it\'s a completely separate sandbox with sample players pre-loaded. Wipe it clean anytime and return to your real data with one click.</div>'+
+        '<button onclick="enterDemoMode()" style="background:#1a5fa0;color:#fff;border:none;border-radius:7px;padding:10px 20px;font-family:Oswald,sans-serif;font-size:13px;font-weight:600;cursor:pointer">🎭 Enter Demo Mode</button>'+
+      '</div>';
+  return '<div id="screen-settings" class="screen '+(TAB==='settings'?'active':'')+'"><div class="settings-wrap">'+
+    demoCard+
+    '<div class="settings-card"><div class="settings-title">☁️ Google Sheets Connection</div><div class="settings-row"><span class="settings-lbl">Web App URL</span><input class="settings-inp" id="sheets-url-inp" value="'+esc(STATE.sheetsUrl)+'" placeholder="Paste your Google Apps Script URL here" oninput="STATE.sheetsUrl=this.value;save()"><button class="test-btn" onclick="testSheets()">Test</button></div><span id="sheets-test-result" class="sheets-pill s-none">'+(hasUrl?'URL saved — tap Test to verify':'No URL saved yet')+'</span><div style="margin-top:18px"><div class="settings-title" style="font-size:13px;margin-bottom:10px">📜 Google Apps Script</div><div style="background:#1a1a2e;color:#a8d8a8;font-family:monospace;font-size:11px;padding:14px;border-radius:8px;overflow-x:auto;line-height:1.7;white-space:pre">'+esc(script)+'</div><button onclick="copyScript()" style="margin-top:8px;background:#1a5fa0;color:#fff;border:none;border-radius:6px;padding:7px 16px;font-family:Oswald,sans-serif;font-size:13px;font-weight:600;cursor:pointer">📋 Copy Script</button></div></div></div></div>';
+}
+
+// ── RENDER HELP ─────────────────────────────────────────────────────────────
+function renderHelp() {
+  function card(icon, title, body) {
+    return '<div style="background:#fff;border:1.5px solid #e0e0e0;border-radius:10px;padding:18px 20px;margin-bottom:14px;box-shadow:0 1px 4px rgba(0,0,0,0.05)">'+
+      '<div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">'+
+        '<span style="font-size:22px">'+icon+'</span>'+
+        '<span style="font-family:Oswald,sans-serif;font-size:15px;font-weight:700;color:#0d1a3a;letter-spacing:0.5px;text-transform:uppercase;letter-spacing:1px">'+title+'</span>'+
+      '</div>'+
+      '<div style="font-size:13px;color:#444;line-height:1.8">'+body+'</div>'+
+    '</div>';
+  }
+  function step(n, text) {
+    return '<div style="display:flex;align-items:flex-start;gap:10px;margin-bottom:10px">'+
+      '<div style="min-width:26px;height:26px;border-radius:50%;background:#c8a040;color:#0d1a3a;font-family:Oswald,sans-serif;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">'+n+'</div>'+
+      '<div style="font-size:13px;color:#444;line-height:1.7">'+text+'</div>'+
+    '</div>';
+  }
+  function faq(q, a) {
+    return '<div style="margin-bottom:14px">'+
+      '<div style="font-weight:700;color:#0d1a3a;font-size:13px;margin-bottom:4px">'+q+'</div>'+
+      '<div style="font-size:13px;color:#555;line-height:1.65;padding-left:12px;border-left:3px solid #c8a040">'+a+'</div>'+
+    '</div>';
+  }
+  function chip(label, bg, color) {
+    return '<span style="display:inline-block;background:'+bg+';color:'+color+';font-family:Oswald,sans-serif;font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;margin:1px 3px;letter-spacing:0.5px">'+label+'</span>';
+  }
+
+  return '<div id="screen-help" class="screen '+(TAB==='help'?'active':'')+'">'+
+    '<div style="padding:20px;max-width:820px">'+
+
+      // Header
+      '<div style="margin-bottom:20px;padding-bottom:16px;border-bottom:2px solid #c8a040">'+
+        '<div style="font-family:Oswald,sans-serif;font-size:26px;font-weight:700;color:#0d1a3a;letter-spacing:2px">THE TURN</div>'+
+        '<div style="font-size:13px;color:#888;margin-top:3px">Golf scoring &amp; season management — Help Guide</div>'+
+      '</div>'+
+
+      // Quick Start
+      card('🚀','Quick Start — The Workflow',
+        step(1,'<b>Roster tab</b> — Add all your players here once at the start of the season. One flat list — no Varsity/JV split. Any player can go in any position on any match. Also set your school name, subtitle, and upload your school logo here.')+
+        step(2,'<b>Schedule tab</b> — Your season schedule is pre-loaded. Find your upcoming match, click <b>+ Set Up</b> to configure opponents, lineup, holes, and number of teams. Hit <b>Save Draft</b> — it\'s ready to go on match day. You can also mark matches as <b>⛔ Cancelled</b> here.')+
+        step(3,'<b>Scoring tab</b> — Load your draft or score directly. Enter par and optional hole handicaps at the top, then type scores hole by hole. Scores color-code instantly. Team scores and standings update in real time as you type — no tab switching needed.')+
+        step(4,'<b>Leaderboard tab</b> — Live Masters-style board with auto-scroll. Project this on a screen at invitationals. School name and logo appear here. Auto-refreshes every 30 seconds.')+
+        step(5,'<b>Season Stats tab</b> — After saving a match, every player\'s averages, round history, and shot breakdown update automatically.')+
+        step(6,'<b>Settings tab</b> — Connect Google Sheets for cloud backup. Enter Demo Mode to show someone the app without touching your real season data.')
+      )+
+
+      // Scoring Tips
+      card('⛳','Scoring Tab — Full Guide',
+        '<b>Par Setup:</b> Enter par for each hole before scoring. OUT and IN subtotals update instantly as you type. Optionally enter Hole Handicap (1 = hardest) — used for tiebreakers.<br><br>'+
+        '<b>Score colors:</b><br>'+
+        chip('EAGLE','#fff0a0','#7a5a00')+' Eagle or better &nbsp;'+
+        chip('BIRDIE','#c8f0d8','#0a5a28')+' Birdie &nbsp;'+
+        chip('PAR','#f0f0f0','#555')+' Par<br>'+
+        chip('BOGEY','#fff3cd','#6a5000')+' Bogey &nbsp;'+
+        chip('DBL','#ffd8a0','#7a3800')+' Double &nbsp;'+
+        chip('TRP','#ffb0a0','#7a1000')+' Triple &nbsp;'+
+        chip('MAX','#3a0000','#ffcccc')+' 2× par cap<br><br>'+
+        '<b>Navigation:</b> Press Enter or → to advance to the next hole. Press ← to go back. Score is capped at 2× par automatically and must be at least 1.<br><br>'+
+        '<b>DNS — Did Not Start:</b> If a player doesn\'t show up, tap the <b>DNS</b> button on their row. Their row greys out, inputs lock, and they\'re excluded from the team score entirely. Tap <b>↩ IN</b> to reinstate them.<br><br>'+
+        '<b>4-man team:</b> If only 4 players compete, all 4 scores count. DNS removes a player cleanly — no phantom zeros.<br><br>'+
+        '<b>Team score:</b> Best 4 of 5 Varsity scores count automatically. The dropped (highest) score is marked with ★.<br><br>'+
+        '<b>Save Match:</b> Hit <b>💾 Save Match to Season</b> when done. This locks the match into Season Stats and flips the schedule row to ✓ PLAYED. Every keystroke auto-saves to your browser — you won\'t lose data if you close the tab.'
+      )+
+
+      // Schedule Tips
+      card('📅','Schedule Tab — Full Guide',
+        '<b>Status flow:</b> '+chip('NOT SET UP','#f0f0f0','#aaa')+' → '+chip('DRAFT READY','#fff0c0','#8a6000')+' → '+chip('✓ PLAYED','#d4f0e0','#1a7a40')+'<br><br>'+
+        '<b>Setting up a match:</b> Click <b>+ Set Up</b> to configure holes (9 or 18), number of teams, whether JV plays, and your player lineup from your roster. Save the draft ahead of time — it\'ll be ready to load on match day.<br><br>'+
+        '<b>Load &amp; Score:</b> On match day, click <b>▶ Load &amp; Score</b> on a draft to pull it directly into the Scoring tab. Pars will be blank (each course is different), but teams and lineups are pre-filled.<br><br>'+
+        '<b>Opponent name cell:</b> Shows inline status — '+chip('✓ COMPLETED','#d4f0e0','#1a7a40')+' for played matches, '+chip('CANCELLED','#fde8e8','#c8281e')+' with strikethrough for cancelled ones.<br><br>'+
+        '<b>Cancellations:</b> Click <b>⛔ Cancel</b> on any match — works whether it\'s not set up, a draft, or already played. Row greys out with strikethrough. Click <b>↩ Uncancel</b> to reverse.'
+      )+
+
+      // Leaderboard
+      card('🏆','Leaderboard Tab — Guide',
+        '<b>Individual standings</b> on the left, <b>Team standings</b> on the right. Both auto-scroll — slow and steady with a pause at the top and bottom so players can actually read it.<br><br>'+
+        '<b>Tiebreakers:</b> If two players tie, The Turn automatically backs up hole by hole starting from the hardest (Hole HCP 1). First player to win a hole wins the tiebreaker. Tied places show as <b>T2</b>, <b>T3</b>, etc. with a <b>TB</b> badge.<br><br>'+
+        '<b>Place colors:</b> Gold = 1st · Silver = 2nd · Bronze = 3rd<br><br>'+
+        '<b>Home team rows</b> are highlighted with a gold left border so your players stand out.<br><br>'+
+        '<b>Projecting on screen:</b> Click into the Leaderboard tab and put your laptop/tablet on the display. Auto-refreshes every 30 seconds. Hover or touch to pause scrolling.'
+      )+
+
+      // Season Stats
+      card('📊','Season Stats — How Averages Work',
+        '<b>9-Hole Average:</b> Every round is normalized to a 9-hole equivalent. A 9-hole match = 1 data point. An 18-hole match = 2 data points (score ÷ 2, counted twice). This keeps averages fair for players who only compete in 9-hole matches.<br><br>'+
+        '<b>Projected 18:</b> 9-Hole Avg × 2. Great for comparing players across the full season regardless of which matches they played in.<br><br>'+
+        '<b>Round history:</b> Each stat card shows every round with a 9H or 18H badge. 18-hole rounds show the normalized → value used in the calculation.<br><br>'+
+        '<b>Undo last save:</b> Made a mistake? Hit <b>↩ Undo Last Save</b> to remove the most recently saved match. Re-score and save again.'
+      )+
+
+      // Roster
+      card('👥','Roster Tab — Guide',
+        '<b>One flat list</b> — add all your players here, no Varsity/JV separation. Any player can fill any Varsity or JV slot on any match.<br><br>'+
+        'On the Scoring tab, your home team rows have a <b>dropdown selector</b> — pick any roster player for that slot. Opponent rows use a plain text field.<br><br>'+
+        '<b>School Info (bottom of Roster tab):</b><br>'+
+        '• Update your team name and subtitle — appears in the header and on the Leaderboard<br>'+
+        '• Upload your school logo — stores right in the app, no external files needed<br>'+
+        '• Remove logo anytime with the ✕ Remove button'
+      )+
+
+      // Undo & Safety
+      card('↩','Undo & Data Safety',
+        '<b>Undo Toast:</b> Any time you delete something — a player row, a roster player, a draft, or clear the scoresheet — a gold <b>↩ Undo</b> toast slides up from the bottom. You have 8 seconds to tap it. After that it\'s gone.<br><br>'+
+        '<b>Auto-save:</b> Every score, every keystroke saves to your browser automatically. You can close the tab, walk away, come back — your data will be there.<br><br>'+
+        '<b>Demo Mode</b> (Settings tab): Want to show someone the app? Enter Demo Mode — completely separate storage with pre-loaded fake players. Your real season data is 100% untouched. Exit Demo Mode and everything snaps right back.<br><br>'+
+        '<b>Google Sheets sync</b> (Settings tab): For cloud backup, connect a Google Apps Script URL. After saving a match, hit Sync to push all data to your spreadsheet.'
+      )+
+
+      // FAQ
+      card('❓','Frequently Asked Questions',
+        faq('Why is a player not showing up in Season Stats?',
+          'They need at least one saved match where their name was selected in the scoring tab dropdown and at least one score was entered.')+
+        faq('A player didn\'t show up for a match — how do I handle it?',
+          'Tap the <b>DNS</b> button on their row in the Scoring tab. They\'re excluded from the team score with no phantom zeros. If they arrive late, tap ↩ IN to bring them back.')+
+        faq('How do I fix a saved match?',
+          'Go to Season Stats, click <b>↩ Undo Last Save</b> to remove it. Re-load the scoresheet, fix the scores, and save again. Note: this removes the most recent save — if it wasn\'t the last one saved you\'ll need to undo multiple times.')+
+        faq('Can I use this at an invitational with lots of teams?',
+          'Yes — when setting up the match, set the number of teams to however many are competing (up to 10+). Each gets their own scoring section. The Leaderboard auto-ranks all individuals and teams.')+
+        faq('Is my data safe if I close the browser?',
+          'Yes — The Turn auto-saves everything to your browser\'s local storage on every keystroke. Don\'t clear your browser data or cache or you\'ll lose it. Use Google Sheets sync for a cloud backup.')+
+        faq('What does MAX mean on the scorecard?',
+          'MAX = 2× par for that hole (e.g., 10 on a par 5). Scores are automatically capped at this value when you type. It prevents one blow-up hole from destroying the team score.')+
+        faq('How does the tiebreaker work?',
+          'If two players tie, The Turn backs up hole by hole starting from the hardest hole (Hole HCP 1 in the par setup). The first player to have a better score on any hole wins the tiebreaker. Enter hole handicaps in the par editor to enable this.')
+      )+
+
+      '<div style="text-align:center;padding:24px 20px 10px;border-top:1px solid #eee;margin-top:6px">'+
+        '<div style="font-family:Oswald,sans-serif;font-size:20px;font-weight:700;color:#c8a040;letter-spacing:4px;margin-bottom:6px">THE TURN ⛳</div>'+
+        '<div style="font-size:12px;color:#bbb;line-height:1.6">Built for golf coaches, tournament directors, and anyone who loves the game.<br>Questions or feedback? We\'d love to hear from you.</div>'+
+      '</div>'+
+
+    '</div>'+
+  '</div>';
+}
+
+// ── RENDER HEADER ───────────────────────────────────────────────────────────
+function renderHeader() {
+  var matchCount=STATE.matches.filter(function(m){return m.season===STATE.season;}).length;
+  var logoSrc=STATE.schoolLogo||('data:image/png;base64,'+LOGO);
+  var schoolName=STATE.schoolName||'Caston Comets';
+  var schoolSub=STATE.schoolSub||'Boys Golf';
+  return '<header class="hdr">'+
+    '<div class="hdr-top">'+
+      // Left: school zone — smaller, supporting role
+      '<div class="hdr-school">'+
+        '<img class="logo" src="'+logoSrc+'" alt="'+esc(schoolName)+'">'+
+        '<div>'+
+          '<div class="school-name">'+esc(schoolName)+'</div>'+
+          '<div class="school-sub">'+esc(schoolSub)+' · '+STATE.season+'</div>'+
+          '<div class="school-sub">'+matchCount+' match'+(matchCount!==1?'es':'')+' saved</div>'+
+        '</div>'+
+      '</div>'+
+      // Center: The Turn wordmark — the hero
+      '<div class="hdr-brand">'+
+        '<div class="brand-eyebrow">Golf Scoring &amp; Management</div>'+
+        '<div class="brand-wordmark">The Turn</div>'+
+        '<div class="brand-tagline">Brought to you by The Turn ⛳</div>'+
+      '</div>'+
+    '</div>'+
+    '<nav class="nav-tabs">'+
+      (DEMO_MODE?'<div style="background:#c8a040;color:#0d1a3a;font-family:Oswald,sans-serif;font-size:11px;font-weight:700;padding:10px 14px;letter-spacing:1px;display:flex;align-items:center;gap:10px">🎭 DEMO MODE <button onclick="exitDemoMode()" style="background:rgba(0,0,0,0.15);border:none;color:#0d1a3a;border-radius:4px;padding:2px 8px;font-size:10px;cursor:pointer;font-family:Oswald,sans-serif;font-weight:700">✕ Exit</button></div>':'')+
+      '<button class="navbtn '+(TAB==='roster'?'active':'')+'" onclick="goRoster()">👥 Roster</button>'+
+      '<button class="navbtn '+(TAB==='drafts'?'active':'')+'" onclick="goDrafts()">📅 Schedule</button>'+
+      '<button class="navbtn '+(TAB==='sheet'?'active':'')+'" onclick="goSheet()">⛳ Scoring</button>'+
+      '<button class="navbtn lb-btn '+(TAB==='lb'?'active':'')+'" onclick="goLB()">🏆 Leaderboard</button>'+
+      '<button class="navbtn '+(TAB==='hist'?'active':'')+'" onclick="goHist()">📊 Season Stats</button>'+
+      '<button class="navbtn '+(TAB==='settings'?'active':'')+'" onclick="goSettings()">⚙️ Settings</button>'+
+      '<button class="navbtn '+(TAB==='help'?'active':'')+'" onclick="goHelp()">❓ Help</button>'+
+    '</nav>'+
+  '</header>';
+}
+
+// ── TAB STATE ───────────────────────────────────────────────────────────────
+var TAB = 'roster';
+function setTab(t) {
+  TAB = t;
+  document.getElementById('app').className = t === 'lb' ? 'lb-screen-active' : '';
+  render();
+}
+function onSeasonChange(v) { STATE.season=v; save(); render(); }
+
+// ── RENDER ──────────────────────────────────────────────────────────────────
+function render() {
+  document.getElementById('app').innerHTML = renderHeader()+renderRoster()+renderDrafts()+renderScoresheet()+renderLeaderboard()+renderHistory()+renderSettings()+renderHelp();
+}
+
+// ── EVENT HANDLERS ──────────────────────────────────────────────────────────
+function onHoles(h) {
+  STATE.sheet.holes=h; STATE.sheet.pars=Array(h).fill(''); STATE.sheet.hcp=Array(h).fill('');
+  STATE.sheet.teams.forEach(function(t){ ['Varsity','JV'].forEach(function(d){ t[d].forEach(function(e){ e.scores=Array(h).fill(''); }); }); });
+  save(); render();
+}
+function onSheetField(f,v) { STATE.sheet[f]=v; save(); }
+function onNumTeams(v) {
+  var n=Math.max(2,Math.min(20,parseInt(v)||2));
+  STATE.sheet.numTeams=n;
+  var h=STATE.sheet.holes, home=STATE.sheet.teams[0], existing=STATE.sheet.teams.slice(1);
+  var opps=Array.from({length:n-1},function(_,i){ return existing[i]||mkTeam('',TEAM_COLORS[(i+1)%TEAM_COLORS.length],h,false); });
+  STATE.sheet.teams=[home].concat(opps);
+  save(); render();
+}
+function onHasJV(v) { STATE.sheet.hasJV=v; save(); render(); }
+function onParInput(inp) {
+  var i=parseInt(inp.dataset.idx);
+  var v=inp.value===''?'':(parseInt(inp.value)||'');
+  STATE.sheet.pars[i]=v;
+  inp.className='par-inp'+(v>=3&&v<=6?' filled':'');
+  save();
+  // Instantly update subtotals in DOM without full re-render
+  var pars=STATE.sheet.pars, holes=STATE.sheet.holes;
+  var fSum=pars.slice(0,9).reduce(function(a,b){return a+(parseInt(b)||0);},0);
+  var bSum=holes===18?pars.slice(9).reduce(function(a,b){return a+(parseInt(b)||0);},0):0;
+  var outEl=document.getElementById('par-out-val');
+  var inEl=document.getElementById('par-in-val');
+  var totEl=document.getElementById('par-grand-total');
+  if(outEl) outEl.textContent=fSum||'—';
+  if(inEl) inEl.textContent=bSum||'—';
+  if(totEl) totEl.textContent=(fSum+bSum)||'—';
+  // Update par row in score table and refresh score colors
+  document.querySelectorAll('.sinp-score').forEach(function(s){ refreshScoreColor(s); });
+  refreshTeamBadges();
+}
+function onHcpInput(inp) {
+  var i=parseInt(inp.dataset.idx);
+  var v=inp.value===''?'':(parseInt(inp.value)||'');
+  if(!STATE.sheet.hcp) STATE.sheet.hcp=Array(STATE.sheet.holes).fill('');
+  STATE.sheet.hcp[i]=v; save();
+}
+function refreshScoreColor(inp) {
+  var h=parseInt(inp.dataset.hole), par=STATE.sheet.pars[h];
+  inp.className='sinp-score '+scoreInfo(inp.value,par).cls;
+}
+
+// Instantly refresh team badge scores and standings box without full render
+function refreshTeamBadges() {
+  var sheet=STATE.sheet, pars=sheet.pars, holes=sheet.holes, teams=sheet.teams;
+  var pSum=pars.reduce(function(a,b){return a+(parseInt(b)||0);},0);
+  // Update each team badge
+  teams.forEach(function(team){
+    ['Varsity','JV'].forEach(function(div){
+      var badge=document.querySelector('.div-block .team-badge[style*="'+team.color+'"]');
+      // Find by team id in the DOM — update all badges for this team/div
+      var divBlocks=document.querySelectorAll('.div-block');
+      divBlocks.forEach(function(block){
+        var badge=block.querySelector('.team-badge');
+        if(!badge) return;
+        // Re-compute from state
+        var score=getTeamScore(team,div,pars,holes);
+        if(score!==null){
+          var td=score-pSum*4;
+          badge.innerHTML='Team: '+score+' <span style="opacity:0.85;font-size:11px">'+fd(td)+'</span>';
+        }
+      });
+    });
+  });
+  // Re-render standings boxes instantly
+  var divs=sheet.hasJV?['Varsity','JV']:['Varsity'];
+  var cols=document.querySelectorAll('.standings-col');
+  cols.forEach(function(col,i){
+    var div=divs[i]||'Varsity';
+    var hdrEl=col.querySelector('.standings-col-hdr');
+    var content=renderStandings(div);
+    // Replace everything after the header
+    col.innerHTML='<div class="standings-col-hdr">'+(hdrEl?hdrEl.textContent:div+' Standings')+'</div>'+content;
+  });
+}
+function onScoreKey(e, inp) {
+  if(e.key==='ArrowRight'||e.key==='Enter') {
+    e.preventDefault();
+    var all=Array.from(document.querySelectorAll('.sinp-score')), i=all.indexOf(inp);
+    if(i>=0&&i<all.length-1){ all[i+1].focus(); all[i+1].select(); }
+  }
+  if(e.key==='ArrowLeft') {
+    e.preventDefault();
+    var all=Array.from(document.querySelectorAll('.sinp-score')), i=all.indexOf(inp);
+    if(i>0){ all[i-1].focus(); all[i-1].select(); }
+  }
+}
+function onScoreInput(inp) {
+  var team=inp.dataset.team, div=inp.dataset.div, idx=parseInt(inp.dataset.idx), hole=parseInt(inp.dataset.hole);
+  var par=parseInt(STATE.sheet.pars[hole])||5, max=par*2;
+  var val=parseInt(inp.value);
+  if(inp.value!==''&&val>max) inp.value=max;
+  if(inp.value!==''&&val<1) inp.value=1;
+  var v=inp.value===''?'':(parseInt(inp.value)||'');
+  var t=STATE.sheet.teams.find(function(t){return t.id===team;});
+  if(!t) return;
+  var entry=t[div][idx]; if(!entry) return;
+  var sc=entry.scores.length===STATE.sheet.holes?[...entry.scores]:Array(STATE.sheet.holes).fill('');
+  sc[hole]=v; entry.scores=sc; save();
+  refreshScoreColor(inp);
+  var row=inp.closest('tr');
+  if(row){
+    var pars=STATE.sheet.pars, holes=STATE.sheet.holes;
+    var pSum=pars.reduce(function(a,b){return a+(parseInt(b)||0);},0);
+    var r=analyze(entry.scores,pars), diff=r.total-pSum;
+    // Update player total
+    var totTd=row.querySelector('.tot-td');
+    if(totTd) totTd.innerHTML=r.played>0?'<div class="tot-num" style="color:'+dc(diff)+'">'+r.total+'</div><div class="tot-diff" style="color:'+dc(diff)+'">'+fd(diff)+'</div>':'<span class="tot-empty">—</span>';
+    // Update OUT/IN subtotal cells if 18-hole round
+    if(holes===18){
+      var teamId=team, divKey=div, rowIdx=idx;
+      var outCell=document.querySelector('td[data-subtotal="out"][data-team="'+teamId+'"][data-div="'+divKey+'"][data-idx="'+rowIdx+'"]');
+      var inCell=document.querySelector('td[data-subtotal="in"][data-team="'+teamId+'"][data-div="'+divKey+'"][data-idx="'+rowIdx+'"]');
+      if(outCell){
+        var outSc=entry.scores.slice(0,9).reduce(function(a,v){return a+(parseInt(v)||0);},0);
+        var outPlayed=entry.scores.slice(0,9).some(function(v){return v!=='';});
+        var outPar=pars.slice(0,9).reduce(function(a,b){return a+(parseInt(b)||0);},0);
+        var outDiff=outSc-outPar;
+        outCell.innerHTML=outPlayed?'<div style="font-family:Oswald,sans-serif;font-size:13px;font-weight:700;color:'+(outDiff<0?'#0a5a28':outDiff>0?'#8a2000':'#333')+'">'+outSc+'</div><div style="font-size:9px;color:'+(outDiff<0?'#0a5a28':outDiff>0?'#8a2000':'#888')+'">'+fd(outDiff)+'</div>':'<span style="color:#ccc">—</span>';
+      }
+      if(inCell){
+        var inSc=entry.scores.slice(9).reduce(function(a,v){return a+(parseInt(v)||0);},0);
+        var inPlayed=entry.scores.slice(9).some(function(v){return v!=='';});
+        var inPar=pars.slice(9).reduce(function(a,b){return a+(parseInt(b)||0);},0);
+        var inDiff=inSc-inPar;
+        inCell.innerHTML=inPlayed?'<div style="font-family:Oswald,sans-serif;font-size:13px;font-weight:700;color:'+(inDiff<0?'#0a5a28':inDiff>0?'#8a2000':'#333')+'">'+inSc+'</div><div style="font-size:9px;color:'+(inDiff<0?'#0a5a28':inDiff>0?'#8a2000':'#888')+'">'+fd(inDiff)+'</div>':'<span style="color:#ccc">—</span>';
+      }
+    }
+  }
+  refreshTeamBadges();
+}
+function onPlayerSelect(sel) {
+  var t=STATE.sheet.teams.find(function(t){return t.id===sel.dataset.team;});
+  if(t){ t[sel.dataset.div][parseInt(sel.dataset.idx)].selectedName=sel.value; }
+  sel.style.borderColor=sel.value?'#c8281e':'#ddd';
+  sel.style.color=sel.value?'#1a1a1a':'#888';
+  save();
+}
+function onNameInput(inp) {
+  var t=STATE.sheet.teams.find(function(t){return t.id===inp.dataset.team;});
+  if(t) t[inp.dataset.div][parseInt(inp.dataset.idx)].name=inp.value;
+  save();
+}
+function onTeamNameInput(inp) {
+  var t=STATE.sheet.teams.find(function(t){return t.id===inp.dataset.teamid;});
+  if(t) t.name=inp.value; save();
+}
+function toggleDNS(teamId, div, idx) {
+  var t=STATE.sheet.teams.find(function(t){return t.id===teamId;});
+  if(!t||!t[div]||!t[div][idx]) return;
+  var e=t[div][idx];
+  e.dns = !e.dns;
+  save(); render();
+}
+function removeEntry(teamId,div,idx) {
+  var t=STATE.sheet.teams.find(function(t){return t.id===teamId;});
+  if(!t||!t[div]||!t[div][idx]) return;
+  var name=t[div][idx].selectedName||t[div][idx].name||('Player '+(idx+1));
+  snapshotForUndo(name);
+  t[div].splice(idx,1);
+  save(); render();
+  showUndoToast(name);
+}
+function addEntry(teamId,div) {
+  var t=STATE.sheet.teams.find(function(t){return t.id===teamId;});
+  if(!t) return;
+  var h=STATE.sheet.holes;
+  var e=t.isHome?{id:(div==='JV'?'j':'r')+Date.now(),selectedName:'',scores:Array(h).fill('')}:{id:uid(),name:'',scores:Array(h).fill('')};
+  t[div].push(e); save(); render();
+}
+function showRosterSaved() {
+  var el = document.getElementById('roster-saved-badge');
+  if(!el) return;
+  el.style.opacity='1';
+  el.textContent='✓ Saved';
+  el.style.color='#1a7a40';
+  clearTimeout(window._rosterSaveTimer);
+  window._rosterSaveTimer = setTimeout(function(){
+    el.style.opacity='0.4';
+    el.textContent='● Auto-saves as you type';
+    el.style.color='#aaa';
+  }, 2000);
+}
+function onRosterName(inp) {
+  var idx=parseInt(inp.dataset.idx);
+  if(STATE.roster.players&&STATE.roster.players[idx]) STATE.roster.players[idx].name=inp.value;
+  save(); showRosterSaved();
+}
+function onRosterSeason(v) { STATE.roster.season=v; STATE.season=v; save(); showRosterSaved(); }
+function addRosterPlayer() {
+  if(!STATE.roster.players) STATE.roster.players=[];
+  STATE.roster.players.push({id:uid(),name:''}); save(); render();
+}
+function removeRosterPlayer(idx) {
+  if(!STATE.roster.players) return;
+  var name = STATE.roster.players[idx]&&STATE.roster.players[idx].name ? STATE.roster.players[idx].name : ('Player '+(idx+1));
+  snapshotForUndo(name);
+  STATE.roster.players.splice(idx,1);
+  save(); render();
+  showUndoToast(name);
+}
+function uploadLogo(inp) {
+  var file=inp.files[0]; if(!file) return;
+  var reader=new FileReader();
+  reader.onload=function(e){ STATE.schoolLogo=e.target.result; save(); render(); };
+  reader.readAsDataURL(file);
+}
+function clearLogo() { STATE.schoolLogo=''; save(); render(); }
+function updateHeader() {
+  var hdr=document.querySelector('.school-name');
+  var sub=document.querySelector('.school-sub');
+  if(hdr) hdr.textContent=STATE.schoolName+' Golf';
+  if(sub) sub.textContent=STATE.schoolSub+' · '+STATE.season;
+}
+function updateUnsavedIndicator(){
+  var btn = document.querySelector('.save-btn');
+  if(!btn) return;
+  var hasScores = STATE.sheet.pars.some(function(p){return parseInt(p)>0;}) &&
+    STATE.sheet.teams[0].Varsity.some(function(e){return e.scores.some(function(s){return s!=='';});});
+  if(hasScores){
+    btn.style.background = '#1a7a40';
+    btn.style.boxShadow = '0 0 10px rgba(26,122,64,0.5)';
+  }
+}
+
+function resetSheet() {
+  if(!confirm('Clear all scores and player selections from the current scoresheet? This does NOT delete any saved matches.')) return;
+  snapshotForUndo('Scoresheet');
+  var h = STATE.sheet.holes;
+  var numTeams = STATE.sheet.numTeams;
+  var hasJV = STATE.sheet.hasJV;
+  var course = STATE.sheet.course;
+  var date = STATE.sheet.date;
+  // Reset teams - keep team names and structure, just clear scores and selections
+  STATE.sheet.teams.forEach(function(team){
+    ['Varsity','JV'].forEach(function(div){
+      team[div].forEach(function(e){
+        e.scores = Array(h).fill('');
+        if(e.selectedName !== undefined) e.selectedName = '';
+        if(e.name !== undefined && !team.isHome) e.name = '';
+        e.dns = false;
+      });
+    });
+  });
+  STATE.sheet.pars = Array(h).fill('');
+  UNSAVED_SCORES = 0;
+  save();
+  render();
+  showUndoToast('Scoresheet');
+}
+
+function undoMatch() {
+  if(!STATE.matches.length) return;
+  if(!confirm('Remove the most recently saved match?')) return;
+  snapshotForUndo('Match');
+  STATE.matches.pop();
+  save(); render();
+  showUndoToast('Match');
+}
+
+// ── SUBMIT MATCH ────────────────────────────────────────────────────────────
+function submitMatch() {
+  var sheet=STATE.sheet, roster=STATE.roster, season=STATE.season;
+  var holes=sheet.holes, pars=sheet.pars, teams=sheet.teams, hasJV=sheet.hasJV;
+  var pSum=pars.reduce(function(a,b){return a+(parseInt(b)||0);},0);
+  if(!pSum){ alert('⚠️ Please enter par values for each hole before saving.'); return; }
+  if(!teams||!teams[0]){ alert('⚠️ No teams found. Please set up the scoresheet first.'); return; }
+  var medalist=findMedalist(teams,pars,holes);
+  var rows=[];
+  teams.forEach(function(team){
+    var divs=hasJV?['Varsity','JV']:['Varsity'];
+    divs.forEach(function(div){
+      var teamScore=getTeamScore(team,div,pars,holes);
+      var teamDiff=teamScore!==null?teamScore-pSum*4:null;
+      team[div].forEach(function(e,idx){
+        var sc=e.scores.length===holes?e.scores:Array(holes).fill('');
+        var stats=analyze(sc,pars);
+        if(stats.played===0) return;
+        var name=team.isHome?(e.selectedName||('Player '+(idx+1))):(e.name||('Player '+(idx+1)));
+        var diff=stats.total-pSum;
+        var scores18=Array(18).fill('');
+        sc.forEach(function(s,i){ scores18[i]=s; });
+        var isMed=medalist&&medalist.name===name&&medalist.total===stats.total?'YES':'';
+        rows.push([sheet.date,sheet.course||'',holes,season,team.isHome?'Caston Comets':(team.name||'Opponent'),div,name].concat(scores18).concat([stats.played>0?stats.total:'',stats.played>0?fd(diff):'',teamScore||'',teamDiff!==null?fd(teamDiff):'',stats.eagles,stats.birdies,stats.parC,stats.bogeys,stats.doubles,stats.triples,stats.maxes,team.isHome?'Home':'Away',isMed]));
+      });
+    });
+  });
+  UNSAVED_SCORES = 0;
+  STATE.matches.push({id:Date.now(),date:sheet.date,course:sheet.course,holes:holes,season:season,teams:JSON.parse(JSON.stringify(teams)),pars:[...pars],hcp:[...(sheet.hcp||[])],hasJV:hasJV,medalist:medalist||null,rows:rows,scheduleNum:sheet.scheduleNum||null});
+  save();
+  if(STATE.sheetsUrl&&STATE.sheetsUrl.length>10){
+    var btn=document.querySelector('.save-btn');
+    if(btn){btn.textContent='⏳ Saving...';btn.disabled=true;}
+    fetch(STATE.sheetsUrl,{method:'POST',body:JSON.stringify({season:season,rows:rows})})
+      .then(function(r){return r.json();})
+      .then(function(){if(btn){btn.textContent='✅ Saved to Sheets!';setTimeout(function(){btn.textContent='💾 Save Match to Season';btn.disabled=false;},2500);}render();})
+      .catch(function(){if(btn){btn.textContent='⚠️ Local only';setTimeout(function(){btn.textContent='💾 Save Match to Season';btn.disabled=false;},3000);}render();});
+  } else {
+    var btn=document.querySelector('.save-btn');
+    if(btn){btn.textContent='✅ Saved!';setTimeout(function(){btn.textContent='💾 Save Match to Season';},2000);}
+    render();
+  }
+}
+
+// ── GOOGLE SHEETS HELPERS ───────────────────────────────────────────────────
+function testSheets() {
+  var url=document.getElementById('sheets-url-inp')?document.getElementById('sheets-url-inp').value:STATE.sheetsUrl;
+  var el=document.getElementById('sheets-test-result');
+  if(!url){if(el){el.className='sheets-pill s-err';el.textContent='No URL entered';}return;}
+  if(el){el.className='sheets-pill s-none';el.textContent='Testing...';}
+  fetch(url).then(function(r){return r.json();}).then(function(d){if(el){el.className='sheets-pill s-ok';el.textContent='✅ Connected! '+d.message;}}).catch(function(){if(el){el.className='sheets-pill s-err';el.textContent='❌ Could not connect';}});
+}
+function copyScript() {
+  var el=document.querySelector('#screen-settings pre, #screen-settings div[style*="monospace"]');
+  if(!el) return;
+  navigator.clipboard.writeText(el.innerText||el.textContent).then(function(){alert('Script copied!');}).catch(function(){alert('Select the script text manually and copy it.');});
+}
+
+
+function goSheet(){setTab('sheet');}
+function goDrafts(){setTab('drafts');}
+function goHist(){setTab('hist');}
+function goRoster(){setTab('roster');}
+function goSettings(){setTab('settings');}
+function goLB(){
+  setTab('lb');
+  // Reset scroll position to top and restart
+  setTimeout(function(){
+    var el=document.getElementById('lb-scroll-wrap');
+    var el2=document.getElementById('lb-team-scroll-wrap');
+    if(el) el.scrollTop=0;
+    if(el2) el2.scrollTop=0;
+    if(_lbScroller) _lbScroller.reset();
+    if(_lbTeamScroller) _lbTeamScroller.reset();
+  }, 100);
+}
+function goHelp(){setTab('help');}
+// Auto-scroll logic for individual leaderboard
+// ── LEADERBOARD SMOOTH SCROLL ────────────────────────────────────────────────
+// Uses requestAnimationFrame for GPU-smooth scrolling
+// Slow steady pace (40px/sec), 4s pause at top, 3s pause at bottom
+var LB_SPEED = 35;        // pixels per second — slow and readable
+var LB_PAUSE_TOP = 4000;  // ms to pause at top
+var LB_PAUSE_BOT = 3000;  // ms to pause at bottom
+
+function makeLBScroller(getEl, pausedGetter) {
+  var dir = 1;
+  var paused = false;
+  var waiting = false;
+  var lastTime = null;
+  var lastEl = null;
+
+  function tick(now) {
+    if(TAB !== 'lb') { lastTime = null; requestAnimationFrame(tick); return; }
+    var el = getEl();
+    if(!el) { lastTime = null; requestAnimationFrame(tick); return; }
+
+    // Element was replaced by a render() call — reset state cleanly
+    if(el !== lastEl) {
+      lastEl = el;
+      lastTime = null;
+      waiting = false;
+      // Don't reset dir — keep scrolling the same direction
+    }
+
+    if(lastTime === null) lastTime = now;
+    var dt = Math.min(now - lastTime, 100);
+    lastTime = now;
+
+    var maxScroll = el.scrollHeight - el.clientHeight;
+
+    if(paused || pausedGetter() || waiting || maxScroll <= 0) {
+      requestAnimationFrame(tick);
+      return;
+    }
+
+    el.scrollTop += dir * LB_SPEED * dt / 1000;
+
+    // Hit bottom
+    if(dir === 1 && el.scrollTop >= maxScroll - 1) {
+      el.scrollTop = maxScroll;
+      waiting = true;
+      setTimeout(function(){ dir = -1; waiting = false; }, LB_PAUSE_BOT);
+    }
+    // Hit top
+    if(dir === -1 && el.scrollTop <= 1) {
+      el.scrollTop = 0;
+      waiting = true;
+      setTimeout(function(){ dir = 1; waiting = false; }, LB_PAUSE_TOP);
+    }
+
+    requestAnimationFrame(tick);
+  }
+
+  requestAnimationFrame(tick);
+
+  return {
+    setPaused: function(v) { paused = v; },
+    reset: function() { dir = 1; waiting = false; lastTime = null; }
+  };
+}
+
+var lbScrollPaused = false;
+var lbTeamScrollPaused = false;
+
+var _lbScroller = makeLBScroller(
+  function(){ return document.getElementById('lb-scroll-wrap'); },
+  function(){ return lbScrollPaused; }
+);
+var _lbTeamScroller = makeLBScroller(
+  function(){ return document.getElementById('lb-team-scroll-wrap'); },
+  function(){ return lbTeamScrollPaused; }
+);
+
+// Auto-refresh leaderboard every 30 seconds when on that tab
+setInterval(function(){
+  if(TAB==='lb'){
+    render();
+  } else {
+    var el=document.getElementById('lb-clock');
+    if(el){var now=new Date();el.textContent='⏱ '+now.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});}
+  }
+},30000);
+
+// ── VIEW PAST MATCH ──────────────────────────────────────────────────────
+function viewMatch(id) {
+  var m=STATE.matches.find(function(x){return x.id===id;});
+  if(!m) return;
+  var pSum=m.pars.reduce(function(a,b){return a+(parseInt(b)||0);},0);
+
+  function buildTable(team,div){
+    var entries=team[div]||[];
+    var hasAny=entries.some(function(e){return (e.scores||[]).some(function(s){return s!=='';});});
+    if(!hasAny) return '';
+    var hHdrs='<th style="text-align:left;padding:4px 8px;background:#ebebeb;color:#555;font-family:Oswald,sans-serif;font-size:10px;min-width:100px">Player</th>';
+    m.pars.forEach(function(_,i){
+      hHdrs+='<th style="min-width:28px;background:#ebebeb;color:#555;font-family:Oswald,sans-serif;font-size:10px;padding:4px 2px;text-align:center">'+(i+1)+'</th>';
+      if(i===8&&m.holes===18) hHdrs+='<th style="min-width:32px;background:#0d2818;color:#c8a040;font-family:Oswald,sans-serif;font-size:10px;padding:4px 2px;text-align:center">OUT</th>';
+    });
+    if(m.holes===18) hHdrs+='<th style="min-width:32px;background:#0d2818;color:#c8a040;font-family:Oswald,sans-serif;font-size:10px;padding:4px 2px;text-align:center">IN</th>';
+    hHdrs+='<th style="min-width:40px;background:#ebebeb;color:#555;font-family:Oswald,sans-serif;font-size:10px;padding:4px;text-align:center">Total</th>'+
+            '<th style="min-width:30px;background:#ebebeb;color:#555;font-family:Oswald,sans-serif;font-size:10px;padding:4px;text-align:center">+/-</th>';
+    var rows=entries.map(function(e,idx){
+      var sc=(e.scores||[]).length===m.holes?e.scores:Array(m.holes).fill('');
+      var r=analyze(sc,m.pars); if(r.played===0) return '';
+      var name=e.resolvedName||e.selectedName||e.name||('P'+(idx+1));
+      var diff=r.total-pSum;
+      var cells='';
+      sc.forEach(function(s,i){
+        var inf=scoreInfo(s,m.pars[i]);
+        cells+='<td style="padding:1px;text-align:center"><div style="width:26px;height:20px;border-radius:3px;display:flex;align-items:center;justify-content:center;margin:auto;font-family:Oswald,sans-serif;font-size:11px;font-weight:700" class="'+inf.cls+'">'+(s||'')+'</div></td>';
+        if(i===8&&m.holes===18){
+          var os=sc.slice(0,9).reduce(function(a,v){return a+(parseInt(v)||0);},0);
+          var op=m.pars.slice(0,9).reduce(function(a,b){return a+(parseInt(b)||0);},0);
+          var od=os-op;
+          cells+='<td style="text-align:center;background:#f0faf5;font-family:Oswald,sans-serif;font-size:11px;font-weight:700;color:'+(od<0?'#0a5a28':od>0?'#8a2000':'#333')+'">'+os+'</td>';
+        }
+      });
+      if(m.holes===18){
+        var is2=sc.slice(9).reduce(function(a,v){return a+(parseInt(v)||0);},0);
+        var ip=m.pars.slice(9).reduce(function(a,b){return a+(parseInt(b)||0);},0);
+        var id2=is2-ip;
+        cells+='<td style="text-align:center;background:#f0faf5;font-family:Oswald,sans-serif;font-size:11px;font-weight:700;color:'+(id2<0?'#0a5a28':id2>0?'#8a2000':'#333')+'">'+is2+'</td>';
+      }
+      return '<tr style="border-bottom:1px solid #f0f0f0">'+
+        '<td style="padding:4px 8px;font-size:12px">'+esc(name)+'</td>'+cells+
+        '<td style="text-align:center;font-family:Oswald,sans-serif;font-size:12px;font-weight:700;color:'+(diff<0?'#0a5a28':diff>0?'#8a2000':'#333')+'">'+r.total+'</td>'+
+        '<td style="text-align:center;font-size:11px;color:'+(diff<0?'#0a5a28':diff>0?'#8a2000':'#888')+'">'+fd(diff)+'</td></tr>';
+    }).join('');
+    if(!rows) return '';
+    return '<div style="margin-bottom:12px">'+
+      '<div style="background:'+(team.isHome?'#c8281e':'#0d1a3a')+';color:#fff;font-family:Oswald,sans-serif;font-size:11px;font-weight:700;padding:5px 10px;letter-spacing:1px">'+
+        esc(team.isHome?'CASTON COMETS':(team.name||'Opponent'))+' — '+div+'</div>'+
+      '<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse"><thead><tr>'+hHdrs+'</tr></thead><tbody>'+rows+'</tbody></table></div></div>';
+  }
+
+  var sections=m.teams.map(function(t){
+    return (m.hasJV?['Varsity','JV']:['Varsity']).map(function(d){return buildTable(t,d);}).join('');
+  }).join('');
+
+  var allP=[];
+  m.teams.forEach(function(team){
+    (m.hasJV?['Varsity','JV']:['Varsity']).forEach(function(div){
+      (team[div]||[]).forEach(function(e,idx){
+        var sc=(e.scores||[]).length===m.holes?e.scores:Array(m.holes).fill('');
+        var r=analyze(sc,m.pars); if(r.played===0) return;
+        var name=e.resolvedName||e.selectedName||e.name||''; if(!name) return;
+        allP.push({name:name,team:team.isHome?'Caston':(team.name||'?'),total:r.total,diff:r.total-pSum,color:team.color,isHome:team.isHome,scores:sc});
+      });
+    });
+  });
+  allP.sort(function(a,b){
+    if(a.total!==b.total) return a.total-b.total;
+    return tiebreakerCmp(a.scores,b.scores,m.hcp||[]);
+  });
+  var medals=['🥇','🥈','🥉'];
+  var standings=allP.map(function(p,i){
+    return '<div style="display:flex;align-items:center;gap:8px;padding:5px 12px;border-bottom:1px solid #f0f0f0;background:'+(p.isHome?'#fff5f5':'#fff')+'">'+
+      '<span style="font-size:13px;min-width:24px">'+(i<3?medals[i]:(i+1))+'</span>'+
+      '<span style="flex:1;font-size:12px;font-weight:600">'+esc(p.name)+'</span>'+
+      '<span style="font-size:10px;color:'+p.color+'">'+esc(p.team)+'</span>'+
+      '<span style="font-family:Oswald,sans-serif;font-size:15px;font-weight:700;min-width:32px;text-align:right;color:'+(p.diff<0?'#0a5a28':p.diff>0?'#8a2000':'#333')+'">'+p.total+'</span>'+
+      '<span style="font-size:10px;min-width:26px;text-align:right;color:'+(p.diff<0?'#0a5a28':p.diff>0?'#8a2000':'#888')+'">'+fd(p.diff)+'</span></div>';
+  }).join('');
+
+  var modal='<div id="view-match-inner" style="background:#fff;border-radius:12px;width:98%;max-width:1300px;max-height:95vh;overflow-y:auto;box-shadow:0 8px 32px rgba(0,0,0,0.3)">'+
+    '<div style="background:#0d1a3a;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;border-radius:12px 12px 0 0">'+
+      '<div><div style="font-family:Oswald,sans-serif;font-size:17px;font-weight:700;color:#fff">'+esc(m.course||'Match')+'</div>'+
+      '<div style="font-size:11px;color:rgba(255,255,255,0.5);margin-top:2px">'+m.date+' · '+m.holes+' Holes · Par '+pSum+'</div></div>'+
+      '<button onclick="closeViewModal()" style="background:rgba(255,255,255,0.1);border:none;color:#fff;border-radius:6px;padding:6px 14px;font-family:Oswald,sans-serif;font-size:13px;font-weight:600;cursor:pointer">✕ Close</button>'+
+    '</div>'+
+    '<div style="display:grid;grid-template-columns:1fr 280px">'+
+      '<div style="padding:14px;border-right:1px solid #e0e0e0;overflow-x:auto;min-width:0">'+
+        '<div style="font-family:Oswald,sans-serif;font-size:11px;font-weight:700;color:#888;letter-spacing:2px;margin-bottom:10px">SCORESHEET</div>'+
+        sections+'</div>'+
+      '<div style="padding:14px">'+
+        '<div style="font-family:Oswald,sans-serif;font-size:11px;font-weight:700;color:#888;letter-spacing:2px;margin-bottom:8px">🏅 STANDINGS</div>'+
+        (m.medalist?'<div style="background:#fffde8;border:1px solid #c8a040;border-radius:6px;padding:7px 10px;margin-bottom:8px;font-size:11px;font-weight:700;color:#8a6000">🏅 MEDALIST: '+esc(m.medalist.name)+' — '+m.medalist.total+'</div>':'')+
+        standings+'</div>'+
+    '</div></div>';
+
+  var overlay=document.getElementById('view-match-modal');
+  if(!overlay){
+    overlay=document.createElement('div');
+    overlay.id='view-match-modal';
+    overlay.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:1000;display:flex;align-items:center;justify-content:center;padding:16px';
+    overlay.onclick=function(e){if(e.target===overlay)closeViewModal();};
+    document.body.appendChild(overlay);
+  }
+  overlay.style.display='flex';
+  overlay.innerHTML=modal;
+}
+
+function closeViewModal(){
+  var el=document.getElementById('view-match-modal');
+  if(el) el.style.display='none';
+  document.exitFullscreen&&document.exitFullscreen();
+}
+function toggleViewFullscreen(){
+  var el=document.getElementById('view-match-modal');
+  if(!el) return;
+  if(!document.fullscreenElement){
+    el.requestFullscreen&&el.requestFullscreen();
+  } else {
+    document.exitFullscreen&&document.exitFullscreen();
+  }
+}
+
+render();
+</script>
+</body>
+</html>
